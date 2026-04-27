@@ -1,2 +1,2 @@
-# OpenFlex-hardware
- Opensource Open Hardware project for an additional Flexfuel box. For bike and cars
+# OpenFlex-Project-hardware
+Prototype for an Open source Flexfuel additionnal box
