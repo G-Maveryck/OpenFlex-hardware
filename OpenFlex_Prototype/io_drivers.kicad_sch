@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "4bbb2340-6573-423f-b4b4-a7a05607c884")
 	(paper "A4")
 	(lib_symbols
@@ -12,8 +12,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -23,6 +27,8 @@
 			)
 			(property "Value" "LM324"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -32,33 +38,41 @@
 			)
 			(property "Footprint" ""
 				(at -1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
 				(at 1.27 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -67,20 +81,24 @@
 			)
 			(property "ki_keywords" "quad opamp"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "LM324_1_1"
@@ -96,17 +114,17 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -132,17 +150,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -203,7 +221,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -232,17 +250,17 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -268,17 +286,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -339,7 +357,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -405,8 +423,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -416,6 +438,8 @@
 			)
 			(property "Value" "C"
 				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -425,47 +449,57 @@
 			)
 			(property "Footprint" ""
 				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "C_0_1"
@@ -498,7 +532,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -516,7 +550,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -545,8 +579,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -555,6 +593,8 @@
 			)
 			(property "Value" "D"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -563,65 +603,79 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Diode"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Sim.Device" "D"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "diode"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "D_0_1"
@@ -713,8 +767,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -723,6 +781,8 @@
 			)
 			(property "Value" "LED"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -731,56 +791,68 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Light emitting diode"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "LED_0_1"
@@ -895,8 +967,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -905,6 +981,8 @@
 			)
 			(property "Value" "R"
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -913,47 +991,57 @@
 			)
 			(property "Footprint" ""
 				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_0_1"
@@ -973,7 +1061,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -991,7 +1079,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1013,8 +1101,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 10.668 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1023,6 +1115,8 @@
 			)
 			(property "Value" "TC4424"
 				(at 0 8.382 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1031,29 +1125,35 @@
 			)
 			(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 				(at 0.254 -9.652 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at -3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at -3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "TC4424_1_1"
@@ -1066,6 +1166,78 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(pin free line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "IN_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "IN_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin output line
@@ -1140,78 +1312,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at 10.16 3.81 180)
-					(length 2.54)
-					(name "IN_B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 1.27 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -1.27 180)
-					(length 2.54)
-					(name "IN_A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 10.16 -3.81 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
@@ -1222,8 +1322,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
 				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1233,6 +1337,8 @@
 			)
 			(property "Value" "IRF740"
 				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1242,50 +1348,60 @@
 			)
 			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.vishay.com/docs/91054/91054.pdf"
 				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Description" "10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "N Channel"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "TO?220*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "IRF740_0_1"
@@ -1514,7 +1630,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:+12V"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1525,17 +1641,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+12V"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1544,38 +1666,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+12V\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+12V_0_1"
@@ -1620,132 +1750,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1764,7 +1769,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1775,17 +1780,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1794,38 +1805,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -1846,7 +1865,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1865,7 +1884,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:VDDA"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1876,17 +1895,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "VDDA"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1895,38 +1920,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"VDDA\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "VDDA_0_1"
@@ -1971,7 +2004,134 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VSS"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VSS"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VSS\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VSS_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "VSS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1990,19 +2150,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "A reprendre"
+	(text "When injectors are triggered by the car ECU, OpAmp output will flip to +VDD.\n\nSignal sent to the MCU is a logic HIGH.\nOutput = +VDD when injector is open."
 		(exclude_from_sim no)
-		(at 136.144 70.866 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-			)
-		)
-		(uuid "4aa2fbe5-5d92-4c73-bc1e-da2c0c166324")
-	)
-	(text "When injectors are triggered by the car ECU, OpAmp will flip and output +5V to the arduino pin\n\nSignal sent to the Arduino is a logic HIGH.\n+5V is sent when injector is open"
-		(exclude_from_sim no)
-		(at 41.656 20.574 0)
+		(at 20.574 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2013,7 +2163,7 @@
 	)
 	(text "Temperature Sensor\n(Thermistor NTC)"
 		(exclude_from_sim no)
-		(at 242.062 140.716 0)
+		(at 249.682 93.726 0)
 		(effects
 			(font
 				(size 1.8796 1.8796)
@@ -2024,7 +2174,7 @@
 	)
 	(text "Flex Sensor Input"
 		(exclude_from_sim no)
-		(at 241.046 102.108 0)
+		(at 248.666 55.118 0)
 		(effects
 			(font
 				(size 1.8796 1.8796)
@@ -2035,8 +2185,8 @@
 	)
 	(text_box "Injection - 4channel input buffers"
 		(exclude_from_sim no)
-		(at 41.91 29.21 0)
-		(size 223.52 50.8)
+		(at 20.32 33.02 0)
+		(size 55.88 139.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2055,8 +2205,8 @@
 	)
 	(text_box "Injection - 4channel Output Driver"
 		(exclude_from_sim no)
-		(at 30.48 92.71 0)
-		(size 135.89 74.93)
+		(at 101.6 33.02 0)
+		(size 68.58 123.19)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2074,116 +2224,116 @@
 		(uuid "b18524e1-e5a4-4291-b039-73089ea9c59b")
 	)
 	(junction
-		(at 220.98 140.97)
+		(at 120.65 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0039bc0b-902e-4da1-8f48-3b7f95cd7626")
+	)
+	(junction
+		(at 120.65 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05383654-0a36-4bbe-8f70-100b94a77e81")
+	)
+	(junction
+		(at 228.6 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e6b9bdf-30df-426b-a967-07c77c7ad035")
 	)
 	(junction
-		(at 152.4 45.72)
+		(at 39.37 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1626bf49-dbfa-4c89-a865-44584704b1f5")
 	)
 	(junction
-		(at 205.74 140.97)
+		(at 213.36 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "171c6712-886d-4a01-a015-79103e665374")
 	)
 	(junction
-		(at 203.2 45.72)
+		(at 39.37 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "189bfe32-5f89-4340-b7f3-020030b164cf")
 	)
 	(junction
-		(at 101.6 45.72)
+		(at 39.37 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a1d4163-851e-4e09-b866-9c1e20ee83a9")
 	)
 	(junction
-		(at 203.2 55.88)
+		(at 39.37 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "204f71eb-0a11-4d1b-bcf6-6473bf648f28")
 	)
 	(junction
-		(at 52.07 55.88)
+		(at 39.37 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "498864eb-0247-4f66-97a0-120aa76b4056")
 	)
 	(junction
-		(at 119.38 148.59)
+		(at 120.65 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "52385082-1f6e-4fed-a78f-3c997878eb17")
+		(uuid "4fdd1fd1-1f10-49bf-8779-079cf8ee063f")
 	)
 	(junction
-		(at 48.26 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56335528-d395-48ce-8eba-f6f99bb24124")
-	)
-	(junction
-		(at 220.98 151.13)
+		(at 228.6 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c0440b6-162a-45a7-8df0-179187860f5d")
 	)
 	(junction
-		(at 119.38 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64728e08-0d43-41cd-9adc-0613c5444050")
-	)
-	(junction
-		(at 152.4 55.88)
+		(at 39.37 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "650f507a-69ed-42ca-bba6-1b6a905fb9c2")
 	)
 	(junction
-		(at 215.9 101.6)
+		(at 120.65 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ab68816-e025-4ce0-bb37-bfa808c2b63c")
+	)
+	(junction
+		(at 223.52 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a068c64-1128-4465-a59c-ce3784357f47")
 	)
 	(junction
-		(at 48.26 111.76)
+		(at 120.65 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aaecf26a-663d-4f6d-a3d4-9bc913f2bced")
+		(uuid "c6588edc-063f-4914-a522-f44bfd759e2d")
 	)
 	(junction
-		(at 48.26 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abfc3e03-4b75-4afc-83e6-c396933b4b92")
-	)
-	(junction
-		(at 52.07 45.72)
+		(at 39.37 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce9428c3-00e8-4539-8087-567969f13979")
 	)
 	(junction
-		(at 101.6 55.88)
+		(at 39.37 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2d9eead-e87c-4b4b-8ca5-48bddc7c7af8")
 	)
 	(junction
-		(at 119.38 129.54)
+		(at 120.65 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f46abdc7-a101-4c84-b399-3f1dae09a8ab")
+		(uuid "f6891d07-2179-442f-98da-6d6f09da2d7b")
 	)
 	(wire
 		(pts
-			(xy 152.4 55.88) (xy 152.4 59.69)
+			(xy 39.37 113.03) (xy 39.37 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2193,7 +2343,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 50.8) (xy 128.27 50.8)
+			(xy 63.5 80.01) (xy 66.04 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2203,7 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 111.76) (xy 74.93 111.76)
+			(xy 148.59 46.99) (xy 147.32 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2213,7 +2363,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 129.54) (xy 48.26 129.54)
+			(xy 119.38 63.5) (xy 120.65 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2223,7 +2373,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 45.72) (xy 152.4 46.99)
+			(xy 39.37 102.87) (xy 39.37 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2233,7 +2383,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 54.61) (xy 152.4 55.88)
+			(xy 39.37 111.76) (xy 39.37 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2243,7 +2393,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 111.76) (xy 58.42 111.76)
+			(xy 128.27 46.99) (xy 130.81 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2253,7 +2403,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 45.72) (xy 101.6 46.99)
+			(xy 39.37 74.93) (xy 39.37 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2263,7 +2413,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 111.76) (xy 48.26 113.03)
+			(xy 120.65 46.99) (xy 120.65 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2273,7 +2423,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 142.24) (xy 205.74 140.97)
+			(xy 213.36 95.25) (xy 213.36 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2283,7 +2433,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 140.97) (xy 220.98 142.24)
+			(xy 228.6 93.98) (xy 228.6 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2293,7 +2443,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 55.88) (xy 101.6 55.88)
+			(xy 48.26 85.09) (xy 39.37 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2303,7 +2453,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 45.72) (xy 52.07 45.72)
+			(xy 46.99 50.8) (xy 39.37 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2313,7 +2463,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 54.61) (xy 101.6 55.88)
+			(xy 39.37 83.82) (xy 39.37 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2323,7 +2473,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 44.45) (xy 152.4 45.72)
+			(xy 39.37 101.6) (xy 39.37 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2333,7 +2483,17 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 53.34) (xy 59.69 55.88)
+			(xy 234.95 50.8) (xy 234.95 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b14b17-5492-451d-9c50-3300c036ef7b")
+	)
+	(wire
+		(pts
+			(xy 46.99 58.42) (xy 46.99 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2343,7 +2503,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 148.59) (xy 58.42 148.59)
+			(xy 128.27 80.01) (xy 130.81 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2353,7 +2513,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 129.54) (xy 48.26 137.16)
+			(xy 120.65 63.5) (xy 120.65 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2363,7 +2523,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 55.88) (xy 152.4 55.88)
+			(xy 48.26 113.03) (xy 39.37 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2373,7 +2533,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 111.76) (xy 119.38 113.03)
+			(xy 120.65 107.95) (xy 120.65 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2383,7 +2543,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 54.61) (xy 52.07 55.88)
+			(xy 39.37 59.69) (xy 39.37 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2393,7 +2553,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 102.87) (xy 215.9 101.6)
+			(xy 223.52 55.88) (xy 223.52 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2403,7 +2563,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 45.72) (xy 152.4 45.72)
+			(xy 48.26 102.87) (xy 39.37 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2413,7 +2573,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 48.26) (xy 161.29 45.72)
+			(xy 48.26 105.41) (xy 48.26 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2423,7 +2583,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 148.59) (xy 137.16 148.59)
+			(xy 139.7 140.97) (xy 138.43 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2433,7 +2593,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 148.59) (xy 147.32 148.59)
+			(xy 147.32 140.97) (xy 148.59 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2443,7 +2603,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 151.13) (xy 220.98 153.67)
+			(xy 228.6 104.14) (xy 228.6 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2453,7 +2613,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 48.26) (xy 212.09 45.72)
+			(xy 48.26 132.08) (xy 48.26 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2463,7 +2623,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 50.8) (xy 179.07 50.8)
+			(xy 63.5 107.95) (xy 66.04 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2473,7 +2633,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 127) (xy 127 127)
+			(xy 129.54 121.92) (xy 128.27 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2483,17 +2643,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 101.6) (xy 226.06 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3313c30d-1d03-4e58-a699-de1497bb7dfb")
-	)
-	(wire
-		(pts
-			(xy 127 132.08) (xy 128.27 132.08)
+			(xy 128.27 127) (xy 129.54 127)
 		)
 		(stroke
 			(width 0)
@@ -2503,7 +2653,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 127) (xy 55.88 127)
+			(xy 48.26 110.49) (xy 48.26 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379f37cb-3c61-46fe-9771-e609691037f4")
+	)
+	(wire
+		(pts
+			(xy 129.54 60.96) (xy 128.27 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2513,7 +2673,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 151.13) (xy 220.98 151.13)
+			(xy 213.36 104.14) (xy 228.6 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2523,7 +2683,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 140.97) (xy 212.09 140.97)
+			(xy 213.36 93.98) (xy 219.71 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2533,7 +2693,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 142.24) (xy 127 132.08)
+			(xy 128.27 133.35) (xy 128.27 127)
 		)
 		(stroke
 			(width 0)
@@ -2543,7 +2703,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 148.59) (xy 48.26 148.59)
+			(xy 119.38 80.01) (xy 120.65 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2553,7 +2713,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 139.7) (xy 205.74 140.97)
+			(xy 213.36 92.71) (xy 213.36 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2563,7 +2723,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 132.08) (xy 55.88 142.24)
+			(xy 128.27 66.04) (xy 128.27 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2573,7 +2733,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 45.72) (xy 52.07 46.99)
+			(xy 39.37 50.8) (xy 39.37 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2583,17 +2743,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 53.34) (xy 161.29 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48c169a9-59c5-4f35-8278-3271d38246b3")
-	)
-	(wire
-		(pts
-			(xy 59.69 55.88) (xy 52.07 55.88)
+			(xy 46.99 60.96) (xy 39.37 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2603,7 +2753,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 148.59) (xy 74.93 148.59)
+			(xy 148.59 80.01) (xy 147.32 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2613,7 +2763,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 127) (xy 127 118.11)
+			(xy 128.27 121.92) (xy 128.27 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2623,7 +2773,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 140.97) (xy 220.98 140.97)
+			(xy 232.41 93.98) (xy 228.6 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2633,7 +2783,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 55.88) (xy 52.07 58.42)
+			(xy 39.37 60.96) (xy 39.37 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2643,7 +2793,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 123.19) (xy 48.26 129.54)
+			(xy 232.41 54.61) (xy 234.95 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57859038-50ae-4bbb-81c3-651869e27130")
+	)
+	(wire
+		(pts
+			(xy 120.65 59.69) (xy 120.65 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2653,7 +2813,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 48.26) (xy 59.69 45.72)
+			(xy 46.99 53.34) (xy 46.99 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2663,7 +2823,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 148.59) (xy 127 148.59)
+			(xy 130.81 140.97) (xy 128.27 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2673,7 +2833,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 97.79) (xy 215.9 101.6)
+			(xy 223.52 50.8) (xy 223.52 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2683,7 +2843,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 97.79) (xy 215.9 97.79)
+			(xy 218.44 50.8) (xy 223.52 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2693,7 +2853,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 45.72) (xy 203.2 46.99)
+			(xy 39.37 129.54) (xy 39.37 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2703,7 +2863,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 129.54) (xy 119.38 123.19)
+			(xy 120.65 124.46) (xy 120.65 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2713,7 +2873,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 111.76) (xy 129.54 111.76)
+			(xy 128.27 107.95) (xy 130.81 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2723,7 +2883,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 127) (xy 55.88 118.11)
+			(xy 128.27 60.96) (xy 128.27 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2733,7 +2893,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 149.86) (xy 205.74 151.13)
+			(xy 213.36 102.87) (xy 213.36 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2743,7 +2903,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 148.59) (xy 66.04 148.59)
+			(xy 139.7 80.01) (xy 138.43 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2753,7 +2913,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 132.08) (xy 55.88 132.08)
+			(xy 129.54 66.04) (xy 128.27 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2763,7 +2923,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 44.45) (xy 203.2 45.72)
+			(xy 39.37 128.27) (xy 39.37 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2773,7 +2933,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 140.97) (xy 205.74 140.97)
+			(xy 209.55 93.98) (xy 213.36 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2783,7 +2943,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 140.97) (xy 220.98 140.97)
+			(xy 227.33 93.98) (xy 228.6 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2793,7 +2953,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 43.18) (xy 52.07 45.72)
+			(xy 39.37 48.26) (xy 39.37 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2803,7 +2963,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 113.03) (xy 215.9 110.49)
+			(xy 223.52 66.04) (xy 223.52 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2813,7 +2973,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 111.76) (xy 146.05 111.76)
+			(xy 148.59 107.95) (xy 147.32 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2823,7 +2983,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 111.76) (xy 119.38 111.76)
+			(xy 119.38 107.95) (xy 120.65 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2833,7 +2993,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 55.88) (xy 203.2 55.88)
+			(xy 48.26 139.7) (xy 39.37 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2843,7 +3003,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 54.61) (xy 203.2 55.88)
+			(xy 39.37 138.43) (xy 39.37 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2853,7 +3013,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 55.88) (xy 203.2 59.69)
+			(xy 39.37 139.7) (xy 39.37 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2863,7 +3023,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 129.54) (xy 119.38 129.54)
+			(xy 119.38 124.46) (xy 120.65 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2873,7 +3033,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 148.59) (xy 48.26 147.32)
+			(xy 120.65 80.01) (xy 120.65 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2883,7 +3043,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 50.8) (xy 229.87 50.8)
+			(xy 63.5 134.62) (xy 66.04 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2893,7 +3053,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 129.54) (xy 119.38 137.16)
+			(xy 120.65 124.46) (xy 120.65 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2903,7 +3063,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 111.76) (xy 66.04 111.76)
+			(xy 139.7 46.99) (xy 138.43 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2913,7 +3073,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 148.59) (xy 119.38 147.32)
+			(xy 120.65 140.97) (xy 120.65 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2923,7 +3083,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 101.6) (xy 215.9 101.6)
+			(xy 224.79 54.61) (xy 223.52 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2933,7 +3093,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 111.76) (xy 137.16 111.76)
+			(xy 139.7 107.95) (xy 138.43 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2943,7 +3103,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 50.8) (xy 74.93 50.8)
+			(xy 64.77 55.88) (xy 62.23 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2953,17 +3113,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 53.34) (xy 110.49 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5637a77-4657-479c-9735-63410a49b0ce")
-	)
-	(wire
-		(pts
-			(xy 210.82 101.6) (xy 215.9 101.6)
+			(xy 218.44 54.61) (xy 223.52 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2973,7 +3123,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 111.76) (xy 48.26 111.76)
+			(xy 119.38 46.99) (xy 120.65 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2983,7 +3133,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 130.81) (xy 205.74 132.08)
+			(xy 213.36 83.82) (xy 213.36 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2993,7 +3143,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 45.72) (xy 101.6 45.72)
+			(xy 48.26 74.93) (xy 39.37 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3003,7 +3153,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 45.72) (xy 203.2 45.72)
+			(xy 48.26 129.54) (xy 39.37 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3013,7 +3163,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 44.45) (xy 101.6 45.72)
+			(xy 39.37 73.66) (xy 39.37 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3023,7 +3173,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 55.88) (xy 101.6 59.69)
+			(xy 48.26 82.55) (xy 48.26 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d402a6-8816-4827-be50-ad99970e07cf")
+	)
+	(wire
+		(pts
+			(xy 39.37 85.09) (xy 39.37 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3033,7 +3193,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 53.34) (xy 212.09 55.88)
+			(xy 48.26 137.16) (xy 48.26 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3043,7 +3203,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 149.86) (xy 220.98 151.13)
+			(xy 228.6 102.87) (xy 228.6 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3053,7 +3213,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 148.59) (xy 119.38 148.59)
+			(xy 119.38 140.97) (xy 120.65 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3063,7 +3223,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 48.26) (xy 110.49 45.72)
+			(xy 48.26 77.47) (xy 48.26 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3073,7 +3233,7 @@
 	)
 	(hierarchical_label "Temp_Signal"
 		(shape input)
-		(at 224.79 140.97 0)
+		(at 232.41 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3084,7 +3244,7 @@
 	)
 	(hierarchical_label "MCU_INJ3"
 		(shape input)
-		(at 148.59 127 0)
+		(at 149.86 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3095,7 +3255,7 @@
 	)
 	(hierarchical_label "Temp_Snsr_IN"
 		(shape input)
-		(at 201.93 140.97 180)
+		(at 209.55 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3106,7 +3266,7 @@
 	)
 	(hierarchical_label "INJ_SIGNAL_CH1"
 		(shape input)
-		(at 77.47 50.8 90)
+		(at 64.77 55.88 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3117,7 +3277,7 @@
 	)
 	(hierarchical_label "Input_Trig_CH4"
 		(shape input)
-		(at 203.2 59.69 270)
+		(at 39.37 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3128,7 +3288,7 @@
 	)
 	(hierarchical_label "Flex_Signal"
 		(shape input)
-		(at 210.82 97.79 180)
+		(at 218.44 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3139,7 +3299,7 @@
 	)
 	(hierarchical_label "INJ_SIGNAL_CH2"
 		(shape input)
-		(at 128.27 50.8 90)
+		(at 66.04 80.01 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3150,7 +3310,7 @@
 	)
 	(hierarchical_label "Input_Trig_CH3"
 		(shape input)
-		(at 152.4 59.69 270)
+		(at 39.37 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3161,7 +3321,7 @@
 	)
 	(hierarchical_label "INJ_SIGNAL_CH4"
 		(shape input)
-		(at 229.87 50.8 90)
+		(at 66.04 134.62 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3172,7 +3332,7 @@
 	)
 	(hierarchical_label "Input_Trig_CH1"
 		(shape input)
-		(at 52.07 58.42 270)
+		(at 39.37 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3183,7 +3343,7 @@
 	)
 	(hierarchical_label "Input_Trig_CH2"
 		(shape input)
-		(at 101.6 59.69 270)
+		(at 39.37 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3194,7 +3354,7 @@
 	)
 	(hierarchical_label "MCU_INJ4"
 		(shape input)
-		(at 148.59 132.08 0)
+		(at 149.86 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3205,7 +3365,7 @@
 	)
 	(hierarchical_label "INJ_SIGNAL_CH3"
 		(shape input)
-		(at 179.07 50.8 90)
+		(at 66.04 107.95 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3216,7 +3376,7 @@
 	)
 	(hierarchical_label "Flex_Snsr_IN"
 		(shape input)
-		(at 210.82 101.6 180)
+		(at 218.44 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3227,7 +3387,7 @@
 	)
 	(hierarchical_label "MCU_INJ2"
 		(shape input)
-		(at 77.47 132.08 0)
+		(at 149.86 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3238,7 +3398,7 @@
 	)
 	(hierarchical_label "INJ_DRIVE_1"
 		(shape input)
-		(at 46.99 111.76 180)
+		(at 119.38 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3249,7 +3409,7 @@
 	)
 	(hierarchical_label "INJ_DRIVE_4"
 		(shape input)
-		(at 118.11 148.59 180)
+		(at 119.38 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3260,7 +3420,7 @@
 	)
 	(hierarchical_label "MCU_INJ1"
 		(shape input)
-		(at 77.47 127 0)
+		(at 149.86 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3271,7 +3431,7 @@
 	)
 	(hierarchical_label "INJ_DRIVE_3"
 		(shape input)
-		(at 118.11 111.76 180)
+		(at 119.38 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3282,7 +3442,7 @@
 	)
 	(hierarchical_label "INJ_DRIVE_2"
 		(shape input)
-		(at 46.99 148.59 180)
+		(at 119.38 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3293,16 +3453,20 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 133.35 111.76 0)
+		(at 134.62 107.95 0)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd3e6c7")
 		(property "Reference" "D7"
-			(at 133.1722 105.283 0)
+			(at 134.4422 101.473 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3310,7 +3474,9 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 133.1722 107.5944 0)
+			(at 134.4422 103.7844 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3318,25 +3484,31 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 133.35 111.76 0)
+			(at 134.62 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 133.35 111.76 0)
+		(property "Datasheet" ""
+			(at 134.62 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 133.35 111.76 0)
+			(at 134.62 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,48 +3516,58 @@
 			)
 		)
 		(property "Digikey Part Number" "732-5005-ND"
-			(at 36.83 67.31 0)
+			(at 38.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Wurth"
-			(at 36.83 67.31 0)
+			(at 38.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "151031SS04000"
-			(at 36.83 67.31 0)
+			(at 38.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "URL" "https://www.mouser.fr/ProductDetail/Wurth-Elektronik/151031SS04000?qs=2kOmHSv6VfQ8BDbc2ZN6yA%3D%3D"
-			(at 36.83 67.31 0)
+			(at 38.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser_Part_Number" "710-151031SS04000"
-			(at 133.35 111.76 0)
+			(at 134.62 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3405,16 +3587,20 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 123.19 111.76 0)
+		(at 124.46 107.95 0)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cfc227f")
-		(property "Reference" "D5"
-			(at 123.19 106.2736 0)
+		(property "Reference" "D3"
+			(at 124.46 102.4636 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3608,9 @@
 			)
 		)
 		(property "Value" "D"
-			(at 123.19 108.585 0)
+			(at 124.46 104.775 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,25 +3618,31 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 123.19 111.76 0)
+			(at 124.46 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 123.19 111.76 0)
+		(property "Datasheet" ""
+			(at 124.46 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 123.19 111.76 0)
+			(at 124.46 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,48 +3650,58 @@
 			)
 		)
 		(property "Digikey Part Number" "1N914TAPGICT-ND"
-			(at 15.24 67.31 0)
+			(at 16.51 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 15.24 67.31 0)
+			(at 16.51 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N914TAP"
-			(at 15.24 67.31 0)
+			(at 16.51 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "URL" "https://www.digikey.com.au/product-detail/en/vishay-general-semiconductor-diodes-division/1N914TAP/1N914TAPGICT-ND/8564478"
-			(at 15.24 67.31 0)
+			(at 16.51 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser_Part_Number" "78-1N914-TAP "
-			(at 123.19 111.76 0)
+			(at 124.46 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3509,7 +3713,7 @@
 		(instances
 			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3517,24 +3721,30 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 153.67 0)
+		(at 228.6 106.68 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d6b85c5")
-		(property "Reference" "#PWR020"
-			(at 220.98 160.02 0)
+		(property "Reference" "#PWR027"
+			(at 228.6 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 221.107 158.0642 0)
+			(at 228.727 111.0742 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,39 +3752,45 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 153.67 0)
+			(at 228.6 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 153.67 0)
+			(at 228.6 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 220.98 153.67 0)
+			(at 228.6 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "3eeb1374-2650-4f13-ade1-7c8766a2b5d2")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "#PWR020")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3582,15 +3798,19 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 205.74 135.89 180)
+		(at 213.36 88.9 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d6b85c6")
 		(property "Reference" "R9"
-			(at 210.9978 135.89 90)
+			(at 218.6178 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,7 +3818,9 @@
 			)
 		)
 		(property "Value" "2.49k"
-			(at 208.6864 135.89 90)
+			(at 216.3064 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,75 +3828,91 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 207.518 135.89 90)
+			(at 215.138 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 205.74 135.89 0)
+		(property "Datasheet" ""
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 205.74 135.89 0)
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" "YAG1854CT-ND"
-			(at 205.74 135.89 0)
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
-			(at 205.74 135.89 0)
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RT0805BRD072K49L"
-			(at 205.74 135.89 0)
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Tolerance" "0.1%"
-			(at 205.74 135.89 0)
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RT0805BRD072K49L/YAG1854CT-ND/5139302"
-			(at 205.74 135.89 0)
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3684,7 +3922,7 @@
 			(uuid "2ba3f10c-c220-4f6e-99d7-5cef78ebbea2")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
 					(reference "R9")
 					(unit 1)
@@ -3694,15 +3932,19 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 220.98 101.6 270)
+		(at 228.6 54.61 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d9ffddf")
 		(property "Reference" "R11"
-			(at 220.98 96.3422 90)
+			(at 228.6 49.3522 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,7 +3952,9 @@
 			)
 		)
 		(property "Value" "2.4k"
-			(at 220.98 98.6536 90)
+			(at 228.6 51.6636 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3718,66 +3962,80 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 220.98 99.822 90)
+			(at 228.6 52.832 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 220.98 101.6 0)
+		(property "Datasheet" ""
+			(at 228.6 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 220.98 101.6 0)
+			(at 228.6 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" "311-2.40KCRCT-ND"
-			(at 220.98 101.6 0)
+			(at 228.6 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
-			(at 220.98 101.6 0)
+			(at 228.6 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0805FR-072K4L"
-			(at 220.98 101.6 0)
+			(at 228.6 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-072K4L/311-2.40KCRCT-ND/730637"
-			(at 220.98 101.6 0)
+			(at 228.6 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3787,7 +4045,7 @@
 			(uuid "97dcc65a-b2b6-4ce6-9a02-74da3a9e3b31")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
 					(reference "R11")
 					(unit 1)
@@ -3797,15 +4055,19 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 215.9 140.97 270)
+		(at 223.52 93.98 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005da923ad")
 		(property "Reference" "R10"
-			(at 215.9 135.7122 90)
+			(at 223.52 88.7222 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +4075,9 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 215.9 138.0236 90)
+			(at 223.52 91.0336 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,75 +4085,91 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 215.9 139.192 90)
+			(at 223.52 92.202 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 215.9 140.97 0)
+		(property "Datasheet" ""
+			(at 223.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 215.9 140.97 0)
+			(at 223.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" "P470CCT-ND"
-			(at 215.9 140.97 0)
+			(at 223.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 215.9 140.97 0)
+			(at 223.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-6ENF4700V"
-			(at 215.9 140.97 0)
+			(at 223.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "URL" "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF4700V/P470CCT-ND/1746871"
-			(at 215.9 140.97 0)
+			(at 223.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser_Part_Number" ""
-			(at 215.9 140.97 0)
+			(at 223.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3899,7 +4179,7 @@
 			(uuid "fa1a0b43-72f2-4cb7-b062-1179209397bd")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
 					(reference "R10")
 					(unit 1)
@@ -3909,15 +4189,19 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 220.98 146.05 0)
+		(at 228.6 99.06 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005da923ae")
 		(property "Reference" "C3"
-			(at 223.901 144.8816 0)
+			(at 231.521 97.8916 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,7 +4210,9 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 223.901 147.193 0)
+			(at 231.521 100.203 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,75 +4221,91 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 221.9452 149.86 0)
+			(at 229.5652 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 220.98 146.05 0)
+		(property "Datasheet" ""
+			(at 228.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 220.98 146.05 0)
+			(at 228.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" "Digikey Part Number"
-			(at 220.98 146.05 0)
+			(at 228.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "TDK"
-			(at 220.98 146.05 0)
+			(at 228.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "FA18X8R1E224KRU06"
-			(at 220.98 146.05 0)
+			(at 228.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "URL" "https://www.digikey.com.au/product-detail/en/tdk-corporation/FA18X8R1E224KRU06/445-180564-1-ND/9560690"
-			(at 220.98 146.05 0)
+			(at 228.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser_Part_Number" "810-FA18X8R1E224KRU6 "
-			(at 220.98 146.05 0)
+			(at 228.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4013,7 +4315,7 @@
 			(uuid "7f0a23c7-481c-4f20-ae21-318214df941c")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
 					(reference "C3")
 					(unit 1)
@@ -4023,24 +4325,30 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 113.03 0)
+		(at 223.52 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005da923c9")
-		(property "Reference" "#PWR019"
-			(at 215.9 119.38 0)
+		(property "Reference" "#PWR026"
+			(at 223.52 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 216.027 117.4242 0)
+			(at 223.647 70.4342 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4048,39 +4356,45 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 113.03 0)
+			(at 223.52 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 113.03 0)
+			(at 223.52 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 215.9 113.03 0)
+			(at 223.52 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "f0d6afab-0a55-4295-981a-bed1654cbbea")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "#PWR019")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4088,15 +4402,19 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 205.74 146.05 0)
+		(at 213.36 99.06 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "03421cf3-e50d-4e11-a6a5-2c1458a8a6e2")
 		(property "Reference" "C1"
-			(at 200.152 144.78 0)
+			(at 207.772 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4423,9 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 196.596 147.066 0)
+			(at 204.216 100.076 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4114,25 +4434,31 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 206.7052 149.86 0)
+			(at 214.3252 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 205.74 146.05 0)
+		(property "Datasheet" ""
+			(at 213.36 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 205.74 146.05 0)
+			(at 213.36 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4140,48 +4466,58 @@
 			)
 		)
 		(property "Digikey Part Number" "445-180563-1-ND"
-			(at 30.48 218.44 0)
+			(at 38.1 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "TDK"
-			(at 30.48 218.44 0)
+			(at 38.1 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "FA18X8R1E104KNU06"
-			(at 30.48 218.44 0)
+			(at 38.1 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "URL" "https://www.digikey.com.au/product-detail/en/tdk-corporation/FA18X8R1E104KNU06/445-180563-1-ND/9560689"
-			(at 30.48 218.44 0)
+			(at 38.1 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser_Part_Number" "810-FA18X8R1E104KNU6"
-			(at 205.74 146.05 0)
+			(at 213.36 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4201,16 +4537,20 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 101.6 50.8 180)
+		(at 39.37 80.01 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08dfe4f4-0822-4cb5-b19a-f7dc558bbdd1")
-		(property "Reference" "R4"
-			(at 104.14 49.5299 0)
+		(property "Reference" "R2"
+			(at 41.91 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,7 +4559,9 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 104.14 52.0699 0)
+			(at 41.91 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,30 +4570,36 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 103.378 50.8 90)
+			(at 41.148 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 101.6 50.8 0)
+		(property "Datasheet" ""
+			(at 39.37 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 50.8 0)
+			(at 39.37 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4261,75 +4609,9 @@
 			(uuid "42143db6-8d2f-48b5-9577-21302fb5dd7c")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
-				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 248.92 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ae5a9aa-eef9-41ba-98a7-3ef8eaad1053")
-		(property "Reference" "#PWR022"
-			(at 248.92 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 248.92 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 248.92 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e150b8d-6d14-4b7e-8356-c0978681ba72")
-		)
-		(instances
 			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "#PWR022")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4337,25 +4619,31 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 129.54 90)
+		(at 149.86 124.46 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "138149f3-f81f-4d2a-aa71-aaa4a642fa15")
-		(property "Reference" "#PWR015"
-			(at 154.94 129.54 0)
+		(property "Reference" "#PWR024"
+			(at 156.21 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 129.5399 90)
+			(at 153.67 124.4599 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,30 +4652,36 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 129.54 0)
+			(at 149.86 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 129.54 0)
+			(at 149.86 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 129.54 0)
+			(at 149.86 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4396,7 +4690,7 @@
 		(instances
 			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "#PWR015")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4404,26 +4698,32 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 76.2 111.76 270)
+		(at 148.59 46.99 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15b1e49f-ca4c-4617-960e-b43dc146ec1e")
-		(property "Reference" "#PWR07"
-			(at 72.39 111.76 0)
+		(property "Reference" "#PWR019"
+			(at 144.78 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+12V"
-			(at 80.01 111.7599 90)
+			(at 152.4 46.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,39 +4732,45 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 111.76 0)
+			(at 148.59 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 111.76 0)
+			(at 148.59 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 76.2 111.76 0)
+			(at 148.59 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "e54a182e-4bc9-47d6-b77c-12a5d4e4d736")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "#PWR07")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4472,25 +4778,31 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 129.54 90)
+		(at 149.86 63.5 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18ae6560-883d-4711-892f-b40449db47ec")
-		(property "Reference" "#PWR09"
-			(at 83.82 129.54 0)
+		(property "Reference" "#PWR023"
+			(at 156.21 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 129.5399 90)
+			(at 153.67 63.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,231 +4811,40 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 129.54 0)
+			(at 149.86 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 129.54 0)
+			(at 149.86 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 129.54 0)
+			(at 149.86 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "7c9ee3ab-aeee-49be-804e-48850cc512b1")
-		)
-		(instances
-			(project "Open_FlexFuel_Nano_THT"
-				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 118.11 129.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1981bb94-2c8f-421f-a4e1-7d9492b845a0")
-		(property "Reference" "#PWR011"
-			(at 111.76 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.046 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74fd0d37-e138-4164-8475-288b83c5de5b")
-		)
-		(instances
-			(project "Open_FlexFuel_Nano_THT"
-				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 52.07 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b911b16-41ef-4f34-aacf-4b1bbefd3397")
-		(property "Reference" "#PWR05"
-			(at 52.07 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 52.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 52.07 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3ef5f18-1bcf-49ff-ab22-56f5fb6c31dc")
-		)
-		(instances
-			(project "Oepn_FlexFuel_Nano"
-				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 248.92 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "266fbecf-6bc0-4b3e-8ece-1219f2078944")
-		(property "Reference" "#PWR023"
-			(at 248.92 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 248.92 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2148a0ee-65b1-477f-b6bb-ed0b068c1a93")
 		)
 		(instances
 			(project "Open_FlexFuel_Nano_THT"
@@ -4735,17 +4856,386 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 142.24 111.76 270)
-		(mirror x)
+		(lib_id "power:GND")
+		(at 119.38 124.46 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1981bb94-2c8f-421f-a4e1-7d9492b845a0")
+		(property "Reference" "#PWR016"
+			(at 113.03 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.316 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74fd0d37-e138-4164-8475-288b83c5de5b")
+		)
+		(instances
+			(project "Open_FlexFuel_Nano_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 39.37 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b911b16-41ef-4f34-aacf-4b1bbefd3397")
+		(property "Reference" "#PWR09"
+			(at 39.37 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 39.37 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 39.37 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3ef5f18-1bcf-49ff-ab22-56f5fb6c31dc")
+		)
+		(instances
+			(project "Open_FlexFuel_Nano_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRF740")
+		(at 123.19 115.57 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d71888f-26cf-48a1-a9ac-777e7fc3ee94")
+		(property "Reference" "Q3"
+			(at 116.84 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF740"
+			(at 116.84 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+			(at 118.11 117.475 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/91054/91054.pdf"
+			(at 118.11 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"
+			(at 123.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Semiconductors "
+			(at 123.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRF740PBF "
+			(at 123.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_Part_Number" "844-IRF740PBF "
+			(at 123.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.mouser.fr/ProductDetail/Vishay-Semiconductors/IRF740PBF?qs=%2FRKvNCQzLu3uJ0qFp3fNBg%3D%3D"
+			(at 123.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c40bbf80-3e24-4b84-b722-6cbb1544ceb8")
+		)
+		(pin "3"
+			(uuid "f3332710-5c50-42bb-97ad-8aaceac89c08")
+		)
+		(pin "1"
+			(uuid "ef7f5b75-c049-46b6-b72a-07de9b68a1b8")
+		)
+		(instances
+			(project "Open_FlexFuel_Nano_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 158.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "266fbecf-6bc0-4b3e-8ece-1219f2078944")
+		(property "Reference" "#PWR014"
+			(at 62.23 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2148a0ee-65b1-477f-b6bb-ed0b068c1a93")
+		)
+		(instances
+			(project "Open_FlexFuel_Nano_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 107.95 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ceb1604-8659-4fd2-a598-612ce29be3e8")
-		(property "Reference" "R5"
-			(at 142.24 105.664 90)
+		(property "Reference" "R7"
+			(at 143.51 101.854 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +5243,9 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 142.24 107.696 90)
+			(at 143.51 103.886 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,66 +5253,80 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 142.24 113.538 90)
+			(at 143.51 109.728 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 111.76 0)
+			(at 143.51 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 142.24 111.76 0)
+			(at 143.51 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" "311-1.00KCRCT-ND"
-			(at 142.24 111.76 0)
+			(at 143.51 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
-			(at 142.24 111.76 0)
+			(at 143.51 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
-			(at 142.24 111.76 0)
+			(at 143.51 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
-			(at 142.24 111.76 0)
+			(at 143.51 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4830,9 +5336,9 @@
 			(uuid "3eb52563-2a9a-4261-b73a-055f7de0722e")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4840,26 +5346,32 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 76.2 148.59 270)
+		(at 148.59 80.01 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30a3ad62-f05a-4d20-80c4-71c3fc33f5b1")
-		(property "Reference" "#PWR08"
-			(at 72.39 148.59 0)
+		(property "Reference" "#PWR020"
+			(at 144.78 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+12V"
-			(at 80.01 148.5899 90)
+			(at 152.4 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,39 +5380,45 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 148.59 0)
+			(at 148.59 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 148.59 0)
+			(at 148.59 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 76.2 148.59 0)
+			(at 148.59 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "734178c7-a469-4f77-ad53-7f7684194a43")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "#PWR08")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4908,16 +5426,20 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 52.07 111.76 0)
+		(at 124.46 46.99 0)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "32e1d894-e016-4df9-9a4c-385e72469567")
 		(property "Reference" "D1"
-			(at 52.07 106.2736 0)
+			(at 124.46 41.5036 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,7 +5447,9 @@
 			)
 		)
 		(property "Value" "D"
-			(at 52.07 108.585 0)
+			(at 124.46 43.815 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,25 +5457,31 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 52.07 111.76 0)
+			(at 124.46 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 52.07 111.76 0)
+		(property "Datasheet" ""
+			(at 124.46 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 52.07 111.76 0)
+			(at 124.46 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,48 +5489,58 @@
 			)
 		)
 		(property "Digikey Part Number" "1N914TAPGICT-ND"
-			(at -55.88 67.31 0)
+			(at 16.51 2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at -55.88 67.31 0)
+			(at 16.51 2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N914TAP"
-			(at -55.88 67.31 0)
+			(at 16.51 2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "URL" "https://www.digikey.com.au/product-detail/en/vishay-general-semiconductor-diodes-division/1N914TAP/1N914TAPGICT-ND/8564478"
-			(at -55.88 67.31 0)
+			(at 16.51 2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser_Part_Number" "78-1N914-TAP"
-			(at 52.07 111.76 0)
+			(at 124.46 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5020,16 +5560,20 @@
 	)
 	(symbol
 		(lib_id "Open_Flex_KiCadLibrary:TC4424")
-		(at 138.43 130.81 0)
+		(at 139.7 125.73 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39990a99-e4b2-4982-865b-22fbad537819")
-		(property "Reference" "U3"
-			(at 138.43 119.38 0)
+		(property "Reference" "U4"
+			(at 139.7 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +5581,9 @@
 			)
 		)
 		(property "Value" "TC4424"
-			(at 138.43 121.92 0)
+			(at 139.7 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,66 +5591,80 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 138.684 140.462 0)
+			(at 139.954 135.382 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 132.08 0)
+			(at 135.89 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 134.62 132.08 0)
+			(at 135.89 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" " Microchip Technology "
-			(at 138.43 130.81 0)
+			(at 139.7 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer part number" "TC4424AVPA "
-			(at 138.43 130.81 0)
+			(at 139.7 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser part number" "579-TC4424AVPA "
-			(at 138.43 130.81 0)
+			(at 139.7 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser link" "https://www.mouser.fr/ProductDetail/Microchip-Technology/TC4424AVPA?qs=AkCjCAp%252BzjQ%252BX%2F9zoVOWQw%3D%3D"
-			(at 138.43 130.81 0)
+			(at 139.7 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "8"
@@ -5134,7 +5694,7 @@
 		(instances
 			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5142,26 +5702,32 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 147.32 111.76 270)
+		(at 148.59 107.95 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a89f6f8-e01d-4126-80b4-ac26cffa4494")
-		(property "Reference" "#PWR013"
-			(at 143.51 111.76 0)
+		(property "Reference" "#PWR021"
+			(at 144.78 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+12V"
-			(at 151.13 111.7599 90)
+			(at 152.4 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,39 +5736,45 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 111.76 0)
+			(at 148.59 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 111.76 0)
+			(at 148.59 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 147.32 111.76 0)
+			(at 148.59 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "69e22473-51b9-455c-b3ec-dc9f14d7dc17")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "#PWR013")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5210,16 +5782,20 @@
 	)
 	(symbol
 		(lib_id "Open_Flex_KiCadLibrary:TC4424")
-		(at 67.31 130.81 0)
+		(at 139.7 64.77 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40cd6931-cd14-492e-a294-36466fe318f7")
-		(property "Reference" "U2"
-			(at 67.31 119.38 0)
+		(property "Reference" "U3"
+			(at 139.7 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +5803,9 @@
 			)
 		)
 		(property "Value" "TC4424"
-			(at 67.31 121.92 0)
+			(at 139.7 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,66 +5813,80 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 67.564 140.462 0)
+			(at 139.954 74.422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 132.08 0)
+			(at 135.89 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 63.5 132.08 0)
+			(at 135.89 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" " Microchip Technology"
-			(at 67.31 130.81 0)
+			(at 139.7 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer part number" "TC4424AVPA "
-			(at 67.31 130.81 0)
+			(at 139.7 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser part number" "579-TC4424AVPA "
-			(at 67.31 130.81 0)
+			(at 139.7 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser link" "https://www.mouser.fr/ProductDetail/Microchip-Technology/TC4424AVPA?qs=AkCjCAp%252BzjQ%252BX%2F9zoVOWQw%3D%3D"
-			(at 67.31 130.81 0)
+			(at 139.7 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "8"
@@ -5322,9 +5914,9 @@
 			(uuid "8d3dca0b-20a9-45ef-9373-4a86b9c6cf19")
 		)
 		(instances
-			(project ""
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5332,15 +5924,19 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 123.19 148.59 0)
+		(at 124.46 140.97 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a1a6e5f-ff09-4f54-868c-3696922fb64a")
-		(property "Reference" "D6"
-			(at 123.19 154.0764 0)
+		(property "Reference" "D4"
+			(at 124.46 146.4564 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5944,9 @@
 			)
 		)
 		(property "Value" "D"
-			(at 123.19 151.765 0)
+			(at 124.46 144.145 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5356,25 +5954,31 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 123.19 148.59 0)
+			(at 124.46 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 123.19 148.59 0)
+		(property "Datasheet" ""
+			(at 124.46 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 123.19 148.59 0)
+			(at 124.46 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,48 +5986,58 @@
 			)
 		)
 		(property "Digikey Part Number" "1N914TAPGICT-ND"
-			(at 15.24 193.04 0)
+			(at 16.51 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 15.24 193.04 0)
+			(at 16.51 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N914TAP"
-			(at 15.24 193.04 0)
+			(at 16.51 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "URL" "https://www.digikey.com.au/product-detail/en/vishay-general-semiconductor-diodes-division/1N914TAP/1N914TAPGICT-ND/8564478"
-			(at 15.24 193.04 0)
+			(at 16.51 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser_Part_Number" "78-1N914-TAP"
-			(at 123.19 148.59 0)
+			(at 124.46 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5435,159 +6049,7 @@
 		(instances
 			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRF740")
-		(at 121.92 118.11 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d75294c-ce85-4b8e-8743-8fd4ee11d7dd")
-		(property "Reference" "Q3"
-			(at 115.57 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF740"
-			(at 115.57 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
-			(at 116.84 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/91054/91054.pdf"
-			(at 116.84 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"
-			(at 121.92 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "39bdf9a9-7490-4a14-b665-87aeaf5d5c3d")
-		)
-		(pin "3"
-			(uuid "7a6403f7-1c9b-4e2b-bcfe-d3bb3de2e7eb")
-		)
-		(pin "1"
-			(uuid "f9930f08-a1a3-4576-8ec3-22a82a1d57e2")
-		)
-		(instances
-			(project "Open_FlexFuel_Nano_THT"
-				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRF740")
-		(at 50.8 118.11 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55c8213b-2bfd-4b86-90b9-59143e85842d")
-		(property "Reference" "Q1"
-			(at 44.45 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF740"
-			(at 44.45 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
-			(at 45.72 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/91054/91054.pdf"
-			(at 45.72 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"
-			(at 50.8 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22149539-8daf-4f64-b672-c6823d6d901d")
-		)
-		(pin "3"
-			(uuid "e40cde74-b005-4699-9b66-f5413824bce3")
-		)
-		(pin "1"
-			(uuid "68078edb-30a8-4ea3-b320-2d3f8f8fda4d")
-		)
-		(instances
-			(project "Open_FlexFuel_Nano_THT"
-				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "Q1")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5595,24 +6057,30 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 57.15 129.54 90)
+		(at 129.54 63.5 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "57b85c1b-7d6d-4b3c-b0dc-afe26af36eed")
-		(property "Reference" "#PWR06"
-			(at 60.96 129.54 0)
+		(property "Reference" "#PWR017"
+			(at 133.35 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+12V"
-			(at 53.594 129.54 0)
+			(at 125.984 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,30 +6088,36 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 129.54 0)
+			(at 129.54 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 129.54 0)
+			(at 129.54 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 57.15 129.54 0)
+			(at 129.54 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5652,7 +6126,7 @@
 		(instances
 			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "#PWR06")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5660,16 +6134,19 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM324")
-		(at 67.31 50.8 0)
-		(mirror x)
+		(at 54.61 55.88 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5866e9b3-ea54-4cd1-8feb-fe0e5d0868cf")
-		(property "Reference" "U1"
-			(at 67.31 60.96 0)
+		(property "Reference" "U2"
+			(at 54.61 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,7 +6154,9 @@
 			)
 		)
 		(property "Value" "LM324"
-			(at 67.31 58.42 0)
+			(at 54.61 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5685,66 +6164,80 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
-			(at 68.58 55.88 0)
+			(at 55.88 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 67.31 50.8 0)
+			(at 54.61 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Texas Instrument"
-			(at 67.31 50.8 0)
+			(at 54.61 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer part number" "LM324KAN "
-			(at 67.31 50.8 0)
+			(at 54.61 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser part Number" "595-LM324KAN "
-			(at 67.31 50.8 0)
+			(at 54.61 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser link" "https://www.mouser.fr/ProductDetail/Texas-Instruments/LM324KAN?qs=VBduBm9rCJRYMhhder83rQ%3D%3D"
-			(at 67.31 50.8 0)
+			(at 54.61 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -5790,9 +6283,9 @@
 			(uuid "357e4de2-307d-42b4-93ef-4421049ebbfd")
 		)
 		(instances
-			(project ""
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5800,15 +6293,19 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 52.07 148.59 0)
+		(at 124.46 80.01 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b90ed39-6d66-43a8-af56-10a2e780e26d")
 		(property "Reference" "D2"
-			(at 52.07 154.0764 0)
+			(at 124.46 85.4964 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5816,7 +6313,9 @@
 			)
 		)
 		(property "Value" "D"
-			(at 52.07 151.765 0)
+			(at 124.46 83.185 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,25 +6323,31 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 52.07 148.59 0)
+			(at 124.46 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 52.07 148.59 0)
+		(property "Datasheet" ""
+			(at 124.46 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 52.07 148.59 0)
+			(at 124.46 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,48 +6355,58 @@
 			)
 		)
 		(property "Digikey Part Number" "1N914TAPGICT-ND"
-			(at -55.88 193.04 0)
+			(at 16.51 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at -55.88 193.04 0)
+			(at 16.51 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N914TAP"
-			(at -55.88 193.04 0)
+			(at 16.51 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "URL" "https://www.digikey.com.au/product-detail/en/vishay-general-semiconductor-diodes-division/1N914TAP/1N914TAPGICT-ND/8564478"
-			(at -55.88 193.04 0)
+			(at 16.51 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser_Part_Number" "78-1N914-TAP"
-			(at 52.07 148.59 0)
+			(at 124.46 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5910,26 +6425,21 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDDA")
-		(at 226.06 101.6 270)
+		(lib_id "Transistor_FET:IRF740")
+		(at 123.19 54.61 0)
+		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61858eb7-8648-4d05-afc6-7184312ed39f")
-		(property "Reference" "#PWR021"
-			(at 222.25 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDDA"
-			(at 229.87 101.5999 90)
+		(uuid "5d850061-d1a7-4fa7-b0a5-580e7ab6e43d")
+		(property "Reference" "Q1"
+			(at 116.84 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5937,40 +6447,188 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 226.06 101.6 0)
+		(property "Value" "IRF740"
+			(at 116.84 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+			(at 118.11 56.515 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/91054/91054.pdf"
+			(at 118.11 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Semiconductors "
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRF740PBF "
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_Part_Number" "844-IRF740PBF "
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.mouser.fr/ProductDetail/Vishay-Semiconductors/IRF740PBF?qs=%2FRKvNCQzLu3uJ0qFp3fNBg%3D%3D"
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4e8212b6-d77e-4c25-b9ca-8fa534223386")
+		)
+		(pin "3"
+			(uuid "05aaed58-e908-4bdf-aa79-0a6bf677c986")
+		)
+		(pin "1"
+			(uuid "e95ef3df-ebc5-469b-a033-4f5f728ed97a")
+		)
+		(instances
+			(project "Open_FlexFuel_Nano_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 234.95 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61858eb7-8648-4d05-afc6-7184312ed39f")
+		(property "Reference" "#PWR028"
+			(at 234.95 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 234.95 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 101.6 0)
+			(at 234.95 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 226.06 101.6 0)
+			(at 234.95 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "83cb72e5-0458-40c3-8196-c55e5394639b")
 		)
 		(instances
-			(project ""
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "#PWR021")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5978,16 +6636,20 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM324")
-		(at 251.46 50.8 0)
+		(at 48.26 156.21 90)
 		(unit 5)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d44c514-da7a-49a1-a1c1-2fb44da5e75b")
-		(property "Reference" "U1"
-			(at 250.19 49.5299 0)
+		(property "Reference" "U2"
+			(at 46.9899 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5996,7 +6658,9 @@
 			)
 		)
 		(property "Value" "LM324"
-			(at 250.19 52.0699 0)
+			(at 49.5299 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6005,66 +6669,80 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 250.19 48.26 0)
+			(at 45.72 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
-			(at 252.73 45.72 0)
+			(at 43.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 251.46 50.8 0)
+			(at 48.26 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Texas Instrument"
-			(at 251.46 50.8 0)
+			(at 48.26 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer part number" "LM324KAN "
-			(at 251.46 50.8 0)
+			(at 48.26 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser part Number" "595-LM324KAN "
-			(at 251.46 50.8 0)
+			(at 48.26 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser link" "https://www.mouser.fr/ProductDetail/Texas-Instruments/LM324KAN?qs=VBduBm9rCJRYMhhder83rQ%3D%3D"
-			(at 251.46 50.8 0)
+			(at 48.26 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -6110,9 +6788,9 @@
 			(uuid "357e4de2-307d-42b4-93ef-4421049ebbfe")
 		)
 		(instances
-			(project ""
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "U1")
+					(reference "U2")
 					(unit 5)
 				)
 			)
@@ -6120,25 +6798,31 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 152.4 44.45 0)
+		(at 39.37 101.6 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72780134-ca59-439f-92ec-e00c57574ed9")
-		(property "Reference" "#PWR016"
-			(at 152.4 48.26 0)
+		(property "Reference" "#PWR011"
+			(at 39.37 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+12V"
-			(at 152.4 39.37 0)
+			(at 39.37 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6146,39 +6830,45 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 44.45 0)
+			(at 39.37 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 44.45 0)
+			(at 39.37 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 152.4 44.45 0)
+			(at 39.37 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "022047fc-f800-44dd-8bb6-b2a525c6e554")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "#PWR016")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6186,17 +6876,20 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM324")
-		(at 118.11 50.8 0)
-		(mirror x)
+		(at 55.88 80.01 0)
 		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7616770c-982d-400c-a983-6ffc9b8e5281")
-		(property "Reference" "U1"
-			(at 118.11 60.96 0)
+		(property "Reference" "U2"
+			(at 55.88 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6204,7 +6897,9 @@
 			)
 		)
 		(property "Value" "LM324"
-			(at 118.11 58.42 0)
+			(at 55.88 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6212,66 +6907,80 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 116.84 53.34 0)
+			(at 54.61 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
-			(at 119.38 55.88 0)
+			(at 57.15 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 118.11 50.8 0)
+			(at 55.88 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Texas Instrument"
-			(at 118.11 50.8 0)
+			(at 55.88 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer part number" "LM324KAN "
-			(at 118.11 50.8 0)
+			(at 55.88 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser part Number" "595-LM324KAN "
-			(at 118.11 50.8 0)
+			(at 55.88 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser link" "https://www.mouser.fr/ProductDetail/Texas-Instruments/LM324KAN?qs=VBduBm9rCJRYMhhder83rQ%3D%3D"
-			(at 118.11 50.8 0)
+			(at 55.88 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -6317,9 +7026,9 @@
 			(uuid "357e4de2-307d-42b4-93ef-4421049ebbff")
 		)
 		(instances
-			(project ""
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "U1")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -6327,16 +7036,20 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 203.2 50.8 180)
+		(at 39.37 134.62 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "768f8a36-cd92-4a08-ace8-61ec2ce5a1ce")
-		(property "Reference" "R8"
-			(at 205.74 49.5299 0)
+		(property "Reference" "R4"
+			(at 41.91 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,7 +7058,9 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 205.74 52.0699 0)
+			(at 41.91 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,30 +7069,36 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 204.978 50.8 90)
+			(at 41.148 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 203.2 50.8 0)
+		(property "Datasheet" ""
+			(at 39.37 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
-			(at 203.2 50.8 0)
+			(at 39.37 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6387,9 +7108,9 @@
 			(uuid "932da263-e42d-4948-8524-5be1063aca25")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6397,16 +7118,20 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 71.12 111.76 90)
+		(at 143.51 46.99 90)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d41f895-017d-4414-bc00-4d3e6498e2bc")
-		(property "Reference" "R2"
-			(at 71.12 105.3846 90)
+		(property "Reference" "R5"
+			(at 143.51 40.6146 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6414,7 +7139,9 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 71.12 107.696 90)
+			(at 143.51 42.926 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,66 +7149,80 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 71.12 109.982 90)
+			(at 143.51 45.212 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 111.76 0)
+			(at 143.51 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 71.12 111.76 0)
+			(at 143.51 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" "311-1.00KCRCT-ND"
-			(at 71.12 111.76 0)
+			(at 143.51 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
-			(at 71.12 111.76 0)
+			(at 143.51 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
-			(at 71.12 111.76 0)
+			(at 143.51 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
-			(at 71.12 111.76 0)
+			(at 143.51 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6491,84 +7232,9 @@
 			(uuid "5f2bc19a-e80c-4c44-9038-891f1b543a71")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRF740")
-		(at 50.8 142.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "879a1695-7560-491e-a82d-2b55fc1cf48c")
-		(property "Reference" "Q2"
-			(at 44.45 143.5101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF740"
-			(at 44.45 140.9701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
-			(at 45.72 140.335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/91054/91054.pdf"
-			(at 45.72 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"
-			(at 50.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4601d879-20d7-4bd2-9464-f8e8dedb8976")
-		)
-		(pin "3"
-			(uuid "b26a394b-53ab-4f5e-af0d-7c65cd47e4eb")
-		)
-		(pin "1"
-			(uuid "80e3197d-1827-4005-98ca-8ab21285b86b")
-		)
-		(instances
-			(project ""
-				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "Q2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6576,15 +7242,19 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 71.12 148.59 90)
+		(at 143.51 80.01 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "903d6a73-91bb-4c87-91e2-b508da5c9266")
-		(property "Reference" "R3"
-			(at 71.12 154.9654 90)
+		(property "Reference" "R6"
+			(at 143.51 86.3854 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6592,7 +7262,9 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 71.12 152.654 90)
+			(at 143.51 84.074 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6600,66 +7272,80 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 71.12 150.368 90)
+			(at 143.51 81.788 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 148.59 0)
+			(at 143.51 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 71.12 148.59 0)
+			(at 143.51 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" "311-1.00KCRCT-ND"
-			(at 71.12 148.59 0)
+			(at 143.51 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
-			(at 71.12 148.59 0)
+			(at 143.51 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
-			(at 71.12 148.59 0)
+			(at 143.51 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
-			(at 71.12 148.59 0)
+			(at 143.51 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6669,9 +7355,9 @@
 			(uuid "4a89fb6b-ca5f-4e3c-9ac5-0882077b4d64")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6679,15 +7365,19 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF740")
-		(at 121.92 142.24 180)
+		(at 123.19 133.35 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a20a7e45-e557-4787-afb0-dcfc82634723")
 		(property "Reference" "Q4"
-			(at 115.57 143.5101 0)
+			(at 116.84 134.6201 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,7 +7386,9 @@
 			)
 		)
 		(property "Value" "IRF740"
-			(at 115.57 140.9701 0)
+			(at 116.84 132.0801 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6705,69 +7397,83 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
-			(at 116.84 140.335 0)
+			(at 118.11 131.445 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/91054/91054.pdf"
-			(at 116.84 138.43 0)
+			(at 118.11 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Description" "10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"
-			(at 121.92 142.24 0)
+			(at 123.19 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
-			(at 121.92 142.24 0)
+		(property "Manufacturer_Name" "Vishay Semiconductors "
+			(at 123.19 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 121.92 142.24 0)
+		(property "Manufacturer_Part_Number" "IRF740PBF "
+			(at 123.19 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Mouser_Part_Number" ""
-			(at 121.92 142.24 0)
+		(property "Mouser_Part_Number" "844-IRF740PBF "
+			(at 123.19 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "URL" ""
-			(at 121.92 142.24 0)
+		(property "URL" "https://www.mouser.fr/ProductDetail/Vishay-Semiconductors/IRF740PBF?qs=%2FRKvNCQzLu3uJ0qFp3fNBg%3D%3D"
+			(at 123.19 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6790,16 +7496,20 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 152.4 50.8 180)
+		(at 39.37 107.95 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a64625e6-b573-4b17-8870-d624ac7b7d7b")
-		(property "Reference" "R7"
-			(at 154.94 49.5299 0)
+		(property "Reference" "R3"
+			(at 41.91 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6808,7 +7518,9 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 154.94 52.0699 0)
+			(at 41.91 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6817,30 +7529,36 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 154.178 50.8 90)
+			(at 41.148 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 152.4 50.8 0)
+		(property "Datasheet" ""
+			(at 39.37 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
-			(at 152.4 50.8 0)
+			(at 39.37 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6850,9 +7568,9 @@
 			(uuid "68b1ce16-808b-45f6-b740-423695d99799")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6860,25 +7578,31 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 203.2 44.45 0)
+		(at 39.37 128.27 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7762dce-ff5e-4d57-8ea5-e4be95bd5791")
-		(property "Reference" "#PWR017"
-			(at 203.2 48.26 0)
+		(property "Reference" "#PWR012"
+			(at 39.37 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+12V"
-			(at 203.2 39.37 0)
+			(at 39.37 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6886,39 +7610,45 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 44.45 0)
+			(at 39.37 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 44.45 0)
+			(at 39.37 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 203.2 44.45 0)
+			(at 39.37 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "67f49ead-abb4-476d-ada8-8cfbb6e7031d")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "#PWR017")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6926,17 +7656,20 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM324")
-		(at 168.91 50.8 0)
-		(mirror x)
+		(at 55.88 107.95 0)
 		(unit 3)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9cf85e8-d033-4e22-ae34-958db5ac3685")
-		(property "Reference" "U1"
-			(at 168.91 60.96 0)
+		(property "Reference" "U2"
+			(at 55.88 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6944,7 +7677,9 @@
 			)
 		)
 		(property "Value" "LM324"
-			(at 168.91 58.42 0)
+			(at 55.88 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,66 +7687,80 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 167.64 53.34 0)
+			(at 54.61 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
-			(at 170.18 55.88 0)
+			(at 57.15 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 168.91 50.8 0)
+			(at 55.88 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Texas Instrument"
-			(at 168.91 50.8 0)
+			(at 55.88 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer part number" "LM324KAN "
-			(at 168.91 50.8 0)
+			(at 55.88 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser part Number" "595-LM324KAN "
-			(at 168.91 50.8 0)
+			(at 55.88 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser link" "https://www.mouser.fr/ProductDetail/Texas-Instruments/LM324KAN?qs=VBduBm9rCJRYMhhder83rQ%3D%3D"
-			(at 168.91 50.8 0)
+			(at 55.88 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -7057,35 +7806,41 @@
 			(uuid "357e4de2-307d-42b4-93ef-4421049ebc00")
 		)
 		(instances
-			(project ""
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "U1")
+					(reference "U2")
 					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 101.6 44.45 0)
+		(lib_id "power:VSS")
+		(at 40.64 158.75 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ad63c752-47d8-41ef-8de3-d2a563c98916")
-		(property "Reference" "#PWR010"
-			(at 101.6 48.26 0)
+		(uuid "aa8a0dc0-b0ad-44cd-b7ac-e5f5a18a906b")
+		(property "Reference" "#PWR013"
+			(at 44.45 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 101.6 39.37 0)
+		(property "Value" "VSS"
+			(at 35.56 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7093,37 +7848,121 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 44.45 0)
+			(at 40.64 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 44.45 0)
+			(at 40.64 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 40.64 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05a794d7-88f8-44ed-8769-6a52cbb477dc")
+		)
+		(instances
+			(project "Open_FlexFuel_Nano_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 39.37 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad63c752-47d8-41ef-8de3-d2a563c98916")
+		(property "Reference" "#PWR010"
+			(at 39.37 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 39.37 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 101.6 44.45 0)
+			(at 39.37 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "3991d814-bc90-4ba5-8ef6-fa781cc334a9")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
 					(reference "#PWR010")
 					(unit 1)
@@ -7133,16 +7972,20 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 62.23 111.76 0)
+		(at 134.62 46.99 0)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b768c536-2f9c-4e8a-aa07-5c311bf73ea9")
-		(property "Reference" "D3"
-			(at 62.0522 105.283 0)
+		(property "Reference" "D5"
+			(at 134.4422 40.513 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7150,7 +7993,9 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 62.0522 107.5944 0)
+			(at 134.4422 42.8244 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7158,25 +8003,31 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 62.23 111.76 0)
+			(at 134.62 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 62.23 111.76 0)
+		(property "Datasheet" ""
+			(at 134.62 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 62.23 111.76 0)
+			(at 134.62 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,48 +8035,58 @@
 			)
 		)
 		(property "Digikey Part Number" "732-5005-ND"
-			(at -34.29 67.31 0)
+			(at 38.1 2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Wurth"
-			(at -34.29 67.31 0)
+			(at 38.1 2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "151031SS04000"
-			(at -34.29 67.31 0)
+			(at 38.1 2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "URL" "https://www.digikey.com.au/product-detail/en/w%C3%BCrth-elektronik/151031SS04000/732-5005-ND/4489979"
-			(at -34.29 67.31 0)
+			(at 38.1 2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser_Part_Number" ""
-			(at 62.23 111.76 0)
+			(at 134.62 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7237,7 +8098,7 @@
 		(instances
 			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7245,25 +8106,31 @@
 	)
 	(symbol
 		(lib_id "power:VDDA")
-		(at 205.74 130.81 0)
+		(at 213.36 83.82 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9d7821c-a337-473f-ae07-65b23b11f3a7")
-		(property "Reference" "#PWR032"
-			(at 205.74 134.62 0)
+		(property "Reference" "#PWR025"
+			(at 213.36 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VDDA"
-			(at 205.74 125.73 0)
+			(at 213.36 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,30 +8138,36 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 130.81 0)
+			(at 213.36 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 130.81 0)
+			(at 213.36 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 205.74 130.81 0)
+			(at 213.36 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7303,7 +8176,7 @@
 		(instances
 			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "#PWR032")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7311,15 +8184,19 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 62.23 148.59 0)
+		(at 134.62 80.01 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c432782e-ac90-4322-bd7f-abd1a5d833cf")
-		(property "Reference" "D4"
-			(at 62.0522 155.067 0)
+		(property "Reference" "D6"
+			(at 134.4422 86.487 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7327,7 +8204,9 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 62.0522 152.7556 0)
+			(at 134.4422 84.1756 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,25 +8214,31 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 62.23 148.59 0)
+			(at 134.62 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 62.23 148.59 0)
+		(property "Datasheet" ""
+			(at 134.62 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 62.23 148.59 0)
+			(at 134.62 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7361,39 +8246,47 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth"
-			(at 62.23 148.59 0)
+			(at 134.62 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "151031SS04000"
-			(at 62.23 148.59 0)
+			(at 134.62 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser_Part_Number" "710-151031SS04000"
-			(at 62.23 148.59 0)
+			(at 134.62 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "URL" "https://www.mouser.fr/ProductDetail/Wurth-Elektronik/151031SS04000?qs=2kOmHSv6VfQ8BDbc2ZN6yA%3D%3D"
-			(at 62.23 148.59 0)
+			(at 134.62 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7405,7 +8298,7 @@
 		(instances
 			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7413,25 +8306,31 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 129.54 270)
+		(at 119.38 63.5 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5c5ce9e-6f69-4610-b52a-3329440ef5c9")
-		(property "Reference" "#PWR04"
-			(at 40.64 129.54 0)
+		(property "Reference" "#PWR015"
+			(at 113.03 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 42.926 129.54 0)
+			(at 115.316 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7439,30 +8338,36 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 129.54 0)
+			(at 119.38 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 129.54 0)
+			(at 119.38 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 129.54 0)
+			(at 119.38 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7471,7 +8376,7 @@
 		(instances
 			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "#PWR04")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7479,24 +8384,30 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 128.27 129.54 90)
+		(at 129.54 124.46 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d14f292b-f7a0-42b2-881e-034fbb87a4dd")
-		(property "Reference" "#PWR012"
-			(at 132.08 129.54 0)
+		(property "Reference" "#PWR018"
+			(at 133.35 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+12V"
-			(at 124.714 129.54 0)
+			(at 125.984 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7504,30 +8415,36 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 129.54 0)
+			(at 129.54 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 129.54 0)
+			(at 129.54 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 128.27 129.54 0)
+			(at 129.54 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7536,7 +8453,7 @@
 		(instances
 			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "#PWR012")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7544,16 +8461,20 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 52.07 50.8 180)
+		(at 39.37 55.88 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7e1177c-6905-421a-aa60-7a22a881c371")
 		(property "Reference" "R1"
-			(at 54.61 49.5299 0)
+			(at 41.91 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7562,7 +8483,9 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 54.61 52.0699 0)
+			(at 41.91 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7571,30 +8494,36 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 53.848 50.8 90)
+			(at 41.148 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 52.07 50.8 0)
+		(property "Datasheet" ""
+			(at 39.37 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
-			(at 52.07 50.8 0)
+			(at 39.37 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7604,7 +8533,7 @@
 			(uuid "d0ab6dae-a971-4e96-b7d3-8ccfbd878b22")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
 					(reference "R1")
 					(unit 1)
@@ -7613,27 +8542,164 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 147.32 148.59 270)
-		(mirror x)
+		(lib_id "Transistor_FET:IRF740")
+		(at 123.19 72.39 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed498173-9967-4808-8521-eefa2096cb8f")
-		(property "Reference" "#PWR014"
-			(at 143.51 148.59 0)
+		(uuid "db413b16-82a2-49a4-ade3-0865e26ff81e")
+		(property "Reference" "Q2"
+			(at 116.84 73.6601 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF740"
+			(at 116.84 71.1201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+			(at 118.11 70.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/91054/91054.pdf"
+			(at 118.11 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"
+			(at 123.19 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Semiconductors "
+			(at 123.19 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRF740PBF "
+			(at 123.19 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_Part_Number" "844-IRF740PBF "
+			(at 123.19 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.mouser.fr/ProductDetail/Vishay-Semiconductors/IRF740PBF?qs=%2FRKvNCQzLu3uJ0qFp3fNBg%3D%3D"
+			(at 123.19 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9eaf8dbf-2b97-48ba-ace4-03871f184a31")
+		)
+		(pin "3"
+			(uuid "8acdd738-90f9-48eb-a1c1-7e54edc9ab55")
+		)
+		(pin "1"
+			(uuid "1799a215-2566-492a-aa80-38dc5c07d4bd")
+		)
+		(instances
+			(project "Open_FlexFuel_Nano_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 148.59 140.97 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed498173-9967-4808-8521-eefa2096cb8f")
+		(property "Reference" "#PWR022"
+			(at 144.78 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Value" "+12V"
-			(at 151.13 148.5899 90)
+			(at 152.4 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7642,39 +8708,45 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 148.59 0)
+			(at 148.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 148.59 0)
+			(at 148.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 147.32 148.59 0)
+			(at 148.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "35d84bc6-e648-4fe0-b382-861e33fa8085")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "#PWR014")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7682,15 +8754,19 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 215.9 106.68 0)
+		(at 223.52 59.69 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f234d773-1aa7-4e8e-ad96-7ef273a772b1")
 		(property "Reference" "C2"
-			(at 218.821 105.5116 0)
+			(at 226.441 58.5216 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,7 +8775,9 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 218.821 107.823 0)
+			(at 226.441 60.833 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7708,75 +8786,91 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 216.8652 110.49 0)
+			(at 224.4852 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 215.9 106.68 0)
+		(property "Datasheet" ""
+			(at 223.52 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 215.9 106.68 0)
+			(at 223.52 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" "Digikey Part Number"
-			(at 215.9 106.68 0)
+			(at 223.52 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "TDK"
-			(at 215.9 106.68 0)
+			(at 223.52 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "FA18X8R1E224KRU06"
-			(at 215.9 106.68 0)
+			(at 223.52 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "URL" "https://www.digikey.com.au/product-detail/en/tdk-corporation/FA18X8R1E224KRU06/445-180564-1-ND/9560690"
-			(at 215.9 106.68 0)
+			(at 223.52 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser_Part_Number" "810-FA18X8R1E224KRU6 "
-			(at 215.9 106.68 0)
+			(at 223.52 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7796,16 +8890,20 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 148.59 270)
+		(at 143.51 140.97 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f32aa55e-4fdf-4dca-a2e7-1f95f8253610")
-		(property "Reference" "R6"
-			(at 142.24 154.9654 90)
+		(property "Reference" "R8"
+			(at 143.51 147.3454 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7813,7 +8911,9 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 142.24 152.654 90)
+			(at 143.51 145.034 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7821,66 +8921,80 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 142.24 150.368 90)
+			(at 143.51 142.748 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 148.59 0)
+			(at 143.51 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 142.24 148.59 0)
+			(at 143.51 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" "311-1.00KCRCT-ND"
-			(at 142.24 148.59 0)
+			(at 143.51 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
-			(at 142.24 148.59 0)
+			(at 143.51 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
-			(at 142.24 148.59 0)
+			(at 143.51 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
-			(at 142.24 148.59 0)
+			(at 143.51 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7890,9 +9004,9 @@
 			(uuid "5158458f-5387-478c-8efb-015ea646eec9")
 		)
 		(instances
-			(project "Oepn_FlexFuel_Nano"
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7900,17 +9014,20 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM324")
-		(at 219.71 50.8 0)
-		(mirror x)
+		(at 55.88 134.62 0)
 		(unit 4)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f57904ae-596d-4c9b-a4a0-416392d8a363")
-		(property "Reference" "U1"
-			(at 219.71 60.96 0)
+		(property "Reference" "U2"
+			(at 55.88 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,7 +9035,9 @@
 			)
 		)
 		(property "Value" "LM324"
-			(at 219.71 58.42 0)
+			(at 55.88 127 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7926,66 +9045,80 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 218.44 53.34 0)
+			(at 54.61 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
-			(at 220.98 55.88 0)
+			(at 57.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 219.71 50.8 0)
+			(at 55.88 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Texas Instrument"
-			(at 219.71 50.8 0)
+			(at 55.88 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer part number" "LM324KAN "
-			(at 219.71 50.8 0)
+			(at 55.88 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser part Number" "595-LM324KAN "
-			(at 219.71 50.8 0)
+			(at 55.88 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser link" "https://www.mouser.fr/ProductDetail/Texas-Instruments/LM324KAN?qs=VBduBm9rCJRYMhhder83rQ%3D%3D"
-			(at 219.71 50.8 0)
+			(at 55.88 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -8031,9 +9164,9 @@
 			(uuid "357e4de2-307d-42b4-93ef-4421049ebc01")
 		)
 		(instances
-			(project ""
+			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "U1")
+					(reference "U2")
 					(unit 4)
 				)
 			)
@@ -8041,15 +9174,19 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 133.35 148.59 0)
+		(at 134.62 140.97 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "fabcfd74-dd30-4b1c-a07e-c9fe90059af4")
 		(property "Reference" "D8"
-			(at 133.1722 155.067 0)
+			(at 134.4422 147.447 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8057,7 +9194,9 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 133.1722 152.7556 0)
+			(at 134.4422 145.1356 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8065,25 +9204,31 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 133.35 148.59 0)
+			(at 134.62 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 133.35 148.59 0)
+		(property "Datasheet" ""
+			(at 134.62 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 133.35 148.59 0)
+			(at 134.62 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8091,48 +9236,58 @@
 			)
 		)
 		(property "Digikey Part Number" "732-5005-ND"
-			(at 36.83 193.04 0)
+			(at 38.1 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Wurth"
-			(at 36.83 193.04 0)
+			(at 38.1 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "151031SS04000"
-			(at 36.83 193.04 0)
+			(at 38.1 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "URL" "https://www.mouser.fr/ProductDetail/Wurth-Elektronik/151031SS04000?qs=2kOmHSv6VfQ8BDbc2ZN6yA%3D%3D"
-			(at 36.83 193.04 0)
+			(at 38.1 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Mouser_Part_Number" "710-151031SS04000"
-			(at 133.35 148.59 0)
+			(at 134.62 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"

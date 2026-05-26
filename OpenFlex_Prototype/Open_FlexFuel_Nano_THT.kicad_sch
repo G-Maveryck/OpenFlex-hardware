@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "9b5751a0-d284-4a5b-96bd-00759eb74951")
 	(paper "A4")
 	(lib_symbols)
@@ -267,11 +267,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "54383dfc-1a14-4ff8-ba2c-575e844d3ff9")
 		(property "Sheetname" "IO_Drivers"
 			(at 163.068 130.048 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -281,6 +283,8 @@
 		)
 		(property "Sheetfile" "io_drivers.kicad_sch"
 			(at 174.752 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -548,11 +552,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "71b628bd-83c9-4f0e-b493-073c5070ff57")
 		(property "Sheetname" "MCU"
 			(at 83.82 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -562,6 +568,8 @@
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
 			(at 81.788 126.238 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -719,11 +727,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "b70e50ac-d40c-421a-87c6-6289c5083853")
 		(property "Sheetname" "Connector"
 			(at 124.46 65.3284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -733,6 +743,8 @@
 		)
 		(property "Sheetfile" "conn.kicad_sch"
 			(at 124.46 61.468 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,11 +912,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e6a49bca-c781-4dca-8d3f-5e26db061154")
 		(property "Sheetname" "Power Regulator"
 			(at 99.06 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -914,6 +928,8 @@
 		)
 		(property "Sheetfile" "pwr.kicad_sch"
 			(at 99.06 74.422 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
