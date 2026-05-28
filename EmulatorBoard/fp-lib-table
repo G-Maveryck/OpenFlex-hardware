@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "OpenFlex_FootPrint_Lib") (type "KiCad") (uri "${KICAD_OPENFLEX_LIB}/Open_Flex_KiCadLibrary.pretty") (options "") (descr ""))
+)
