@@ -2331,6 +2331,22 @@
 		(color 0 0 0 0)
 		(uuid "f6891d07-2179-442f-98da-6d6f09da2d7b")
 	)
+	(no_connect
+		(at 129.54 129.54)
+		(uuid "3bce154c-c9e4-4328-bff5-19d4cdadebc2")
+	)
+	(no_connect
+		(at 149.86 68.58)
+		(uuid "b09f1d42-667d-487f-aafd-76bb89815f82")
+	)
+	(no_connect
+		(at 149.86 129.54)
+		(uuid "b81a4239-0cd3-4f47-82e8-28bbe6f28459")
+	)
+	(no_connect
+		(at 129.54 68.58)
+		(uuid "fa46c0cf-fa41-4229-9a14-30eade067be1")
+	)
 	(wire
 		(pts
 			(xy 39.37 113.03) (xy 39.37 116.84)
@@ -3515,17 +3531,6 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "732-5005-ND"
-			(at 38.1 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "Wurth"
 			(at 38.1 63.5 0)
 			(hide yes)
@@ -3860,17 +3865,6 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "YAG1854CT-ND"
-			(at 213.36 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "Yageo"
 			(at 213.36 88.9 0)
 			(hide yes)
@@ -3882,7 +3876,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RT0805BRD072K49L"
+		(property "Manufacturer_Part_Number" "MFR-25FBF52-2K49"
 			(at 213.36 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3904,7 +3898,18 @@
 				)
 			)
 		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RT0805BRD072K49L/YAG1854CT-ND/5139302"
+		(property "URL" "https://www.mouser.fr/ProductDetail/YAGEO/MFR-25FBF52-2K49?qs=oAGoVhmvjhwfmQMP0IrT5Q%3D%3D"
+			(at 213.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_Part_Number" "603-MFR-25FBF52-2K49"
 			(at 213.36 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3994,17 +3999,6 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "311-2.40KCRCT-ND"
-			(at 228.6 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "Yageo"
 			(at 228.6 54.61 0)
 			(hide yes)
@@ -4016,7 +4010,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0805FR-072K4L"
+		(property "Manufacturer_Part_Number" "MFR-25FBF52-2K4"
 			(at 228.6 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4027,7 +4021,18 @@
 				)
 			)
 		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-072K4L/311-2.40KCRCT-ND/730637"
+		(property "URL" "https://www.mouser.fr/ProductDetail/YAGEO/MFR-25FBF52-2K4?qs=oAGoVhmvjhxgKgpSfL8wnA%3D%3D"
+			(at 228.6 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_Part_Number" "603-MFR-25FBF52-2K4"
 			(at 228.6 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4117,7 +4122,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "P470CCT-ND"
+		(property "Manufacturer_Name" " YAGEO"
 			(at 223.52 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4128,7 +4133,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
+		(property "Manufacturer_Part_Number" "MFR-25FTE52-470R"
 			(at 223.52 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4139,7 +4144,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-6ENF4700V"
+		(property "URL" "https://www.mouser.fr/ProductDetail/YAGEO/MFR-25FTE52-470R?qs=oAGoVhmvjhywqkRjln2gRw%3D%3D"
 			(at 223.52 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4150,18 +4155,7 @@
 				)
 			)
 		)
-		(property "URL" "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF4700V/P470CCT-ND/1746871"
-			(at 223.52 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser_Part_Number" ""
+		(property "Mouser_Part_Number" "603-MFR-25FTE52-470R"
 			(at 223.52 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4182,142 +4176,6 @@
 			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 228.6 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005da923ae")
-		(property "Reference" "C3"
-			(at 231.521 97.8916 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220nF"
-			(at 231.521 100.203 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 229.5652 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 228.6 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "Digikey Part Number"
-			(at 228.6 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "TDK"
-			(at 228.6 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "FA18X8R1E224KRU06"
-			(at 228.6 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.digikey.com.au/product-detail/en/tdk-corporation/FA18X8R1E224KRU06/445-180564-1-ND/9560690"
-			(at 228.6 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser_Part_Number" "810-FA18X8R1E224KRU6 "
-			(at 228.6 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f00809d4-03ec-4c0b-ae82-d4fd6eeba2a3")
-		)
-		(pin "2"
-			(uuid "7f0a23c7-481c-4f20-ae21-318214df941c")
-		)
-		(instances
-			(project "Open_FlexFuel_Nano_THT"
-				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4465,17 +4323,6 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "445-180563-1-ND"
-			(at 38.1 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "TDK"
 			(at 38.1 171.45 0)
 			(hide yes)
@@ -4498,7 +4345,7 @@
 				)
 			)
 		)
-		(property "URL" "https://www.digikey.com.au/product-detail/en/tdk-corporation/FA18X8R1E104KNU06/445-180563-1-ND/9560689"
+		(property "URL" "https://www.mouser.fr/ProductDetail/TDK/FA18X8R1E104KNU06?qs=UrFqKgNWc7QW5A1lIq6%2F7g%3D%3D"
 			(at 38.1 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -4530,88 +4377,6 @@
 			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 39.37 80.01 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08dfe4f4-0822-4cb5-b19a-f7dc558bbdd1")
-		(property "Reference" "R2"
-			(at 41.91 78.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 41.91 81.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 41.148 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 39.37 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e59d4377-c05f-47ca-8b89-4e97055ad78c")
-		)
-		(pin "1"
-			(uuid "42143db6-8d2f-48b5-9577-21302fb5dd7c")
-		)
-		(instances
-			(project "Open_FlexFuel_Nano_THT"
-				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5011,6 +4776,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 39.37 107.95 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bf52d5e-1a35-49b9-9566-a0dc11781b21")
+		(property "Reference" "R3"
+			(at 41.91 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 41.91 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 41.148 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 39.37 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 39.37 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MFR-25FBF52-10K"
+			(at 39.37 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_Part_Number" "603-MFR-25FBF52-10K"
+			(at 39.37 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.mouser.fr/ProductDetail/YAGEO/MFR-25FBF52-10K?qs=oAGoVhmvjhxY0mVN9GL5Pg%3D%3D"
+			(at 39.37 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b2ed7225-bb39-4e49-bd9c-0a0a29209123")
+		)
+		(pin "1"
+			(uuid "01fe0879-1dba-48ae-a974-4df810d4f24e")
+		)
+		(instances
+			(project "Open_FlexFuel_Nano_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:IRF740")
 		(at 123.19 115.57 0)
 		(mirror y)
@@ -5143,6 +5034,148 @@
 		)
 	)
 	(symbol
+		(lib_id "Open_Flex_KiCadLibrary:TC4424")
+		(at 139.7 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20d1cc0c-fe9a-4e67-a428-024b93ca8859")
+		(property "Reference" "U4"
+			(at 139.7 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC4424"
+			(at 139.7 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+			(at 139.954 135.382 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" " Microchip Technology"
+			(at 139.7 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TC4424AVPA "
+			(at 139.7 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_Part_Number" "579-TC4424AVPA "
+			(at 139.7 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.mouser.fr/ProductDetail/Microchip-Technology/TC4424AVPA?qs=AkCjCAp%252BzjQ%252BX%2F9zoVOWQw%3D%3D"
+			(at 139.7 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "f61b4bd5-1735-4f2a-96b2-3d2a30814bf0")
+		)
+		(pin "4"
+			(uuid "17f01f22-ccc2-4fe2-b09f-ef2abb864b4f")
+		)
+		(pin "2"
+			(uuid "53e64c28-3c3d-4d92-8856-0e4f8220ec66")
+		)
+		(pin "7"
+			(uuid "1b87e498-db92-4601-b669-24159defc733")
+		)
+		(pin "5"
+			(uuid "a518ec92-0c1f-4a39-a2c8-002beee37273")
+		)
+		(pin "3"
+			(uuid "0d37b818-9f99-41b9-8f72-a4834cd077e7")
+		)
+		(pin "6"
+			(uuid "44bdf978-1050-4dc9-83d1-51c0e1db4f86")
+		)
+		(pin "1"
+			(uuid "bf6f80dd-7d9d-4f4f-95c3-98bc1d03312f")
+		)
+		(instances
+			(project "Open_FlexFuel_Nano_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 55.88 158.75 90)
 		(unit 1)
@@ -5215,130 +5248,6 @@
 			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 107.95 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2ceb1604-8659-4fd2-a598-612ce29be3e8")
-		(property "Reference" "R7"
-			(at 143.51 101.854 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 143.51 103.886 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 143.51 109.728 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "311-1.00KCRCT-ND"
-			(at 143.51 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 143.51 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
-			(at 143.51 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
-			(at 143.51 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5cd1640-44e6-4142-b8df-5eaaf9c434c0")
-		)
-		(pin "2"
-			(uuid "3eb52563-2a9a-4261-b73a-055f7de0722e")
-		)
-		(instances
-			(project "Open_FlexFuel_Nano_THT"
-				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5559,148 +5468,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Open_Flex_KiCadLibrary:TC4424")
-		(at 139.7 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39990a99-e4b2-4982-865b-22fbad537819")
-		(property "Reference" "U4"
-			(at 139.7 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TC4424"
-			(at 139.7 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 139.954 135.382 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" " Microchip Technology "
-			(at 139.7 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer part number" "TC4424AVPA "
-			(at 139.7 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser part number" "579-TC4424AVPA "
-			(at 139.7 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser link" "https://www.mouser.fr/ProductDetail/Microchip-Technology/TC4424AVPA?qs=AkCjCAp%252BzjQ%252BX%2F9zoVOWQw%3D%3D"
-			(at 139.7 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "3cdb8b20-c72c-429a-a8f4-f1b69d541202")
-		)
-		(pin "4"
-			(uuid "97dcfc87-2252-4262-951a-355f3f857d06")
-		)
-		(pin "2"
-			(uuid "ba20a002-5302-47ac-a53a-cbe96a289023")
-		)
-		(pin "7"
-			(uuid "517cbafd-bef7-4aba-af91-38eddf6e30c8")
-		)
-		(pin "5"
-			(uuid "d8b3aff2-b458-4b4e-baf3-3772635e2a14")
-		)
-		(pin "3"
-			(uuid "160a03e8-9162-426d-bb87-cca950f36af7")
-		)
-		(pin "6"
-			(uuid "ceb7dc61-3f26-47d5-b0cb-2969d15343e8")
-		)
-		(pin "1"
-			(uuid "40af782f-2295-4262-a461-e5f7c2880bec")
-		)
-		(instances
-			(project "Open_FlexFuel_Nano_THT"
-				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 148.59 107.95 270)
 		(mirror x)
@@ -5781,6 +5548,255 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 39.37 80.01 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bb7954e-202f-4865-a89d-5651d16e5c52")
+		(property "Reference" "R2"
+			(at 41.91 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 41.91 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 41.148 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 39.37 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 39.37 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MFR-25FBF52-10K"
+			(at 39.37 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_Part_Number" "603-MFR-25FBF52-10K"
+			(at 39.37 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.mouser.fr/ProductDetail/YAGEO/MFR-25FBF52-10K?qs=oAGoVhmvjhxY0mVN9GL5Pg%3D%3D"
+			(at 39.37 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "69ad5e46-b655-4ccf-a9c9-e591bfc78172")
+		)
+		(pin "1"
+			(uuid "0565b692-e119-4720-9fb5-517a904b49b3")
+		)
+		(instances
+			(project "Open_FlexFuel_Nano_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 107.95 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "402419ef-71c9-48df-ad0d-c027a1d2872d")
+		(property "Reference" "R7"
+			(at 143.51 101.5746 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 143.51 103.886 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 143.51 106.172 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 143.51 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" " MFR-25FBF52-1K"
+			(at 143.51 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.mouser.fr/ProductDetail/YAGEO/MFR-25FBF52-1K?qs=oAGoVhmvjhwCAC47ReWjsQ%3D%3D"
+			(at 143.51 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_Part_Number" "603-MFR-25FBF52-1K"
+			(at 143.51 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56045e2f-1b95-455c-8509-dfeb8cb6dd8f")
+		)
+		(pin "2"
+			(uuid "a136349a-0e9d-4cfc-b24d-61a977273ef3")
+		)
+		(instances
+			(project "Open_FlexFuel_Nano_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Open_Flex_KiCadLibrary:TC4424")
 		(at 139.7 64.77 0)
 		(unit 1)
@@ -5845,7 +5861,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" " Microchip Technology"
+		(property "Manufacturer_Name" " Microchip Technology"
 			(at 139.7 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5856,7 +5872,7 @@
 				)
 			)
 		)
-		(property "Manufacturer part number" "TC4424AVPA "
+		(property "Manufacturer_Part_Number" "TC4424AVPA "
 			(at 139.7 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5867,7 +5883,7 @@
 				)
 			)
 		)
-		(property "Mouser part number" "579-TC4424AVPA "
+		(property "Mouser_Part_Number" "579-TC4424AVPA "
 			(at 139.7 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5878,51 +5894,7 @@
 				)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.fr/ProductDetail/Microchip-Technology/TC4424AVPA?qs=AkCjCAp%252BzjQ%252BX%2F9zoVOWQw%3D%3D"
-			(at 139.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 139.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 139.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser_Part_Number" ""
-			(at 139.7 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" ""
+		(property "URL" "https://www.mouser.fr/ProductDetail/Microchip-Technology/TC4424AVPA?qs=AkCjCAp%252BzjQ%252BX%2F9zoVOWQw%3D%3D"
 			(at 139.7 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5961,6 +5933,129 @@
 			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 46.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "436657cf-d923-4a8d-acf6-3882611f4b6c")
+		(property "Reference" "R5"
+			(at 143.51 40.6146 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 143.51 42.926 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 143.51 45.212 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 143.51 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" " MFR-25FBF52-1K"
+			(at 143.51 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.mouser.fr/ProductDetail/YAGEO/MFR-25FBF52-1K?qs=oAGoVhmvjhwCAC47ReWjsQ%3D%3D"
+			(at 143.51 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_Part_Number" "603-MFR-25FBF52-1K"
+			(at 143.51 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d84df92-45f9-475b-bfc6-c80448960aa4")
+		)
+		(pin "2"
+			(uuid "dfa41f29-b50b-450f-97b6-c4ec214ea669")
+		)
+		(instances
+			(project "Open_FlexFuel_Nano_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6240,7 +6335,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instrument"
+		(property "Manufacturer_Name" "Texas Instrument"
 			(at 54.61 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6251,7 +6346,7 @@
 				)
 			)
 		)
-		(property "Manufacturer part number" "LM324KAN "
+		(property "Manufacturer_Part_Number" "LM324KAN "
 			(at 54.61 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6262,7 +6357,7 @@
 				)
 			)
 		)
-		(property "Mouser part Number" "595-LM324KAN "
+		(property "Mouser_Part_Number" "595-LM324KAN "
 			(at 54.61 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6273,7 +6368,7 @@
 				)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.fr/ProductDetail/Texas-Instruments/LM324KAN?qs=VBduBm9rCJRYMhhder83rQ%3D%3D"
+		(property "URL" "https://www.mouser.fr/ProductDetail/Texas-Instruments/LM324KAN?qs=VBduBm9rCJRYMhhder83rQ%3D%3D"
 			(at 54.61 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6745,7 +6840,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instrument"
+		(property "Manufacturer_Name" "Texas Instrument"
 			(at 48.26 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6756,7 +6851,7 @@
 				)
 			)
 		)
-		(property "Manufacturer part number" "LM324KAN "
+		(property "Manufacturer_Part_Number" "LM324KAN "
 			(at 48.26 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6767,7 +6862,7 @@
 				)
 			)
 		)
-		(property "Mouser part Number" "595-LM324KAN "
+		(property "Mouser_Part_Number" "595-LM324KAN "
 			(at 48.26 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6778,7 +6873,7 @@
 				)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.fr/ProductDetail/Texas-Instruments/LM324KAN?qs=VBduBm9rCJRYMhhder83rQ%3D%3D"
+		(property "URL" "https://www.mouser.fr/ProductDetail/Texas-Instruments/LM324KAN?qs=VBduBm9rCJRYMhhder83rQ%3D%3D"
 			(at 48.26 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6983,7 +7078,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instrument"
+		(property "Manufacturer_Name" "Texas Instrument"
 			(at 55.88 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6994,7 +7089,7 @@
 				)
 			)
 		)
-		(property "Manufacturer part number" "LM324KAN "
+		(property "Manufacturer_Part_Number" "LM324KAN "
 			(at 55.88 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7005,7 +7100,7 @@
 				)
 			)
 		)
-		(property "Mouser part Number" "595-LM324KAN "
+		(property "Mouser_Part_Number" "595-LM324KAN "
 			(at 55.88 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7016,7 +7111,7 @@
 				)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.fr/ProductDetail/Texas-Instruments/LM324KAN?qs=VBduBm9rCJRYMhhder83rQ%3D%3D"
+		(property "URL" "https://www.mouser.fr/ProductDetail/Texas-Instruments/LM324KAN?qs=VBduBm9rCJRYMhhder83rQ%3D%3D"
 			(at 55.88 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7080,89 +7175,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 39.37 134.62 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "768f8a36-cd92-4a08-ace8-61ec2ce5a1ce")
-		(property "Reference" "R4"
-			(at 41.91 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 41.91 135.8899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 41.148 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 39.37 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "667122e7-3537-4c2b-b3b4-b07977dc49e5")
-		)
-		(pin "1"
-			(uuid "932da263-e42d-4948-8524-5be1063aca25")
-		)
-		(instances
-			(project "Open_FlexFuel_Nano_THT"
-				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 46.99 90)
+		(at 143.51 80.01 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7171,130 +7184,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7d41f895-017d-4414-bc00-4d3e6498e2bc")
-		(property "Reference" "R5"
-			(at 143.51 40.6146 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 143.51 42.926 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 143.51 45.212 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "311-1.00KCRCT-ND"
-			(at 143.51 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 143.51 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
-			(at 143.51 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
-			(at 143.51 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "51a333e0-469f-48e8-b25a-60d5cd182637")
-		)
-		(pin "2"
-			(uuid "5f2bc19a-e80c-4c44-9038-891f1b543a71")
-		)
-		(instances
-			(project "Open_FlexFuel_Nano_THT"
-				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 80.01 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "903d6a73-91bb-4c87-91e2-b508da5c9266")
+		(uuid "84cc56af-e47f-4666-bf05-1beb33632e30")
 		(property "Reference" "R6"
 			(at 143.51 86.3854 90)
 			(show_name no)
@@ -7348,7 +7238,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "311-1.00KCRCT-ND"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 143.51 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7359,7 +7249,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Yageo"
+		(property "Manufacturer_Part_Number" " MFR-25FBF52-1K"
 			(at 143.51 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7370,7 +7260,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
+		(property "URL" "https://www.mouser.fr/ProductDetail/YAGEO/MFR-25FBF52-1K?qs=oAGoVhmvjhwCAC47ReWjsQ%3D%3D"
 			(at 143.51 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7381,7 +7271,7 @@
 				)
 			)
 		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
+		(property "Mouser_Part_Number" "603-MFR-25FBF52-1K"
 			(at 143.51 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7393,10 +7283,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "97aa6df4-0b36-41b6-b02b-3fe92c278ed6")
+			(uuid "850f02db-cc6e-4364-b0cb-d552bb96c619")
 		)
 		(pin "2"
-			(uuid "4a89fb6b-ca5f-4e3c-9ac5-0882077b4d64")
+			(uuid "1bf4f266-a66b-4d08-b8c1-ca22c6be5a20")
 		)
 		(instances
 			(project "Open_FlexFuel_Nano_THT"
@@ -7533,88 +7423,6 @@
 			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 39.37 107.95 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a64625e6-b573-4b17-8870-d624ac7b7d7b")
-		(property "Reference" "R3"
-			(at 41.91 106.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 41.91 109.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 41.148 107.95 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 39.37 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "defa3a34-21b5-45f7-8db4-3fa77e980ae4")
-		)
-		(pin "1"
-			(uuid "68b1ce16-808b-45f6-b740-423695d99799")
-		)
-		(instances
-			(project "Open_FlexFuel_Nano_THT"
-				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7763,7 +7571,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instrument"
+		(property "Manufacturer_Name" "Texas Instrument"
 			(at 55.88 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7774,7 +7582,7 @@
 				)
 			)
 		)
-		(property "Manufacturer part number" "LM324KAN "
+		(property "Manufacturer_Part_Number" "LM324KAN "
 			(at 55.88 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7785,7 +7593,7 @@
 				)
 			)
 		)
-		(property "Mouser part Number" "595-LM324KAN "
+		(property "Mouser_Part_Number" "595-LM324KAN "
 			(at 55.88 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7796,7 +7604,7 @@
 				)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.fr/ProductDetail/Texas-Instruments/LM324KAN?qs=VBduBm9rCJRYMhhder83rQ%3D%3D"
+		(property "URL" "https://www.mouser.fr/ProductDetail/Texas-Instruments/LM324KAN?qs=VBduBm9rCJRYMhhder83rQ%3D%3D"
 			(at 55.88 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8015,6 +7823,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 39.37 134.62 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aece3808-38fd-4760-90dd-3a686b698242")
+		(property "Reference" "R4"
+			(at 41.91 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 41.91 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 41.148 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 39.37 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 39.37 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MFR-25FBF52-10K"
+			(at 39.37 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_Part_Number" "603-MFR-25FBF52-10K"
+			(at 39.37 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.mouser.fr/ProductDetail/YAGEO/MFR-25FBF52-10K?qs=oAGoVhmvjhxY0mVN9GL5Pg%3D%3D"
+			(at 39.37 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "77823122-1141-45e8-8dac-dbf2f028d941")
+		)
+		(pin "1"
+			(uuid "81065e10-dece-4fbf-830b-775f4ea56cd6")
+		)
+		(instances
+			(project "Open_FlexFuel_Nano_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 134.62 46.99 0)
 		(mirror x)
@@ -8143,6 +8077,131 @@
 			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 228.6 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b9616d0b-8ece-47e1-b006-72ea52f34cb2")
+		(property "Reference" "C3"
+			(at 231.521 97.8916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 231.521 100.203 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 229.5652 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 228.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FA18X8R1E224KRU06"
+			(at 228.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.mouser.fr/ProductDetail/TDK/FA18X8R1E224KRU06?qs=UrFqKgNWc7TOuugIv9ts4g%3D%3D"
+			(at 228.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_Part_Number" "810-FA18X8R1E224KRU6 "
+			(at 228.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85b12048-960e-45c1-838f-21f38d8d7212")
+		)
+		(pin "2"
+			(uuid "f05d2d61-53e9-4c85-948d-346848dcc9e1")
+		)
+		(instances
+			(project "Open_FlexFuel_Nano_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8570,6 +8629,50 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 39.37 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MFR-25FBF52-10K"
+			(at 39.37 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_Part_Number" "603-MFR-25FBF52-10K"
+			(at 39.37 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.mouser.fr/ProductDetail/YAGEO/MFR-25FBF52-10K?qs=oAGoVhmvjhxY0mVN9GL5Pg%3D%3D"
+			(at 39.37 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8ca7c121-40b1-4d2c-b722-d4f8663b6e92")
 		)
@@ -8862,17 +8965,6 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "Digikey Part Number"
-			(at 223.52 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "TDK"
 			(at 223.52 59.69 0)
 			(hide yes)
@@ -8895,7 +8987,7 @@
 				)
 			)
 		)
-		(property "URL" "https://www.digikey.com.au/product-detail/en/tdk-corporation/FA18X8R1E224KRU06/445-180564-1-ND/9560690"
+		(property "URL" "https://www.mouser.fr/ProductDetail/TDK/FA18X8R1E224KRU06?qs=UrFqKgNWc7TOuugIv9ts4g%3D%3D"
 			(at 223.52 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8997,7 +9089,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "311-1.00KCRCT-ND"
+		(property "Manufacturer_Name" "YAGEO"
 			(at 143.51 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9008,7 +9100,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Yageo"
+		(property "Manufacturer_Part_Number" " MFR-25FBF52-1K"
 			(at 143.51 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9019,7 +9111,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
+		(property "URL" "https://www.mouser.fr/ProductDetail/YAGEO/MFR-25FBF52-1K?qs=oAGoVhmvjhwCAC47ReWjsQ%3D%3D"
 			(at 143.51 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9030,7 +9122,7 @@
 				)
 			)
 		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
+		(property "Mouser_Part_Number" "603-MFR-25FBF52-1K"
 			(at 143.51 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9121,7 +9213,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instrument"
+		(property "Manufacturer_Name" "Texas Instrument"
 			(at 55.88 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9132,7 +9224,7 @@
 				)
 			)
 		)
-		(property "Manufacturer part number" "LM324KAN "
+		(property "Manufacturer_Part_Number" "LM324KAN "
 			(at 55.88 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9143,7 +9235,7 @@
 				)
 			)
 		)
-		(property "Mouser part Number" "595-LM324KAN "
+		(property "Mouser_Part_Number" "595-LM324KAN "
 			(at 55.88 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9154,7 +9246,7 @@
 				)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.fr/ProductDetail/Texas-Instruments/LM324KAN?qs=VBduBm9rCJRYMhhder83rQ%3D%3D"
+		(property "URL" "https://www.mouser.fr/ProductDetail/Texas-Instruments/LM324KAN?qs=VBduBm9rCJRYMhhder83rQ%3D%3D"
 			(at 55.88 134.62 0)
 			(hide yes)
 			(show_name no)

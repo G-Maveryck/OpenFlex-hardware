@@ -1354,6 +1354,184 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x10_Top_Bottom")
+		(at 44.45 74.93 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5dfaf123-addd-44ea-b175-5f2c6c0986ce")
+		(property "Reference" "J1"
+			(at 43.434 55.626 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Molex MAX150_2x10"
+			(at 43.434 58.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Open_Flex_KiCadLibrary:Molex_CONN_MX150_20w"
+			(at 44.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 44.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "Manufacturer_Part_Mating 33472-2001  0 0 Centrer Centrer 0 0 "
+			(at 44.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_Part_Number" "538-33472-2001 "
+			(at 44.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.mouser.fr/ProductDetail/Molex/33472-2001?qs=ZlMU7IUseCt4wlAgpUcMsQ%3D%3D"
+			(at 44.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc93aa03-3325-4645-955b-540f6b9ee46e")
+		)
+		(pin "10"
+			(uuid "6c0f5540-bffd-46ca-af44-27a2ffd80a8d")
+		)
+		(pin "15"
+			(uuid "3dcb5073-5910-4e6c-9b4f-4355621ca991")
+		)
+		(pin "17"
+			(uuid "f21cf05c-fd95-4d28-a312-0877887921e0")
+		)
+		(pin "18"
+			(uuid "6c10c7ea-277d-4eec-b6ed-a7c151751e3f")
+		)
+		(pin "19"
+			(uuid "2986d298-11a2-4952-8962-79514955c2b9")
+		)
+		(pin "2"
+			(uuid "be8b0604-0c58-45ea-9954-53df455fb664")
+		)
+		(pin "3"
+			(uuid "7a05e748-361f-4a1d-a0b1-ec5b8add8cf5")
+		)
+		(pin "9"
+			(uuid "42b73e37-3c3c-4aaf-b24e-9c9634b9b951")
+		)
+		(pin "5"
+			(uuid "4aabf08f-9716-4ddc-81e0-4b6bcb4a3e2f")
+		)
+		(pin "6"
+			(uuid "7f9f5360-5578-4061-97be-3634af4f331e")
+		)
+		(pin "7"
+			(uuid "dc185343-813c-4557-9bdb-b31c5a79fa82")
+		)
+		(pin "8"
+			(uuid "864d7755-043e-4f9f-9917-9645d9594e8e")
+		)
+		(pin "11"
+			(uuid "8b92bf52-2c80-4c2f-9759-d140ffb8e3bf")
+		)
+		(pin "13"
+			(uuid "caeb86e4-af9f-4da4-859e-a6b2365f7447")
+		)
+		(pin "14"
+			(uuid "1e98e5e0-60cd-42a3-8179-19f97de15bde")
+		)
+		(pin "16"
+			(uuid "bee9e266-68b3-496c-9c2b-3fd4f7541ba4")
+		)
+		(pin "4"
+			(uuid "d6a3e9e7-19c7-44d9-9edc-5327f9684f3b")
+		)
+		(pin "12"
+			(uuid "7f55dca2-7152-4ae5-8244-2e50e0e4255e")
+		)
+		(pin "20"
+			(uuid "e8aa44a2-8837-4c4b-9399-acb3fa905fa5")
+		)
+		(instances
+			(project "Open_FlexFuel_Nano_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/b70e50ac-d40c-421a-87c6-6289c5083853"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDDA")
 		(at 161.29 63.5 0)
 		(unit 1)
@@ -1443,7 +1621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96413afa-4582-49c8-bf95-5e0659c9c8c6")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 100.584 55.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1540,39 +1718,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Mating" "33472-2001 "
-			(at 101.6 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser_Part_Mating" "538-33472-2001 "
-			(at 101.6 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL_Mating" "https://www.mouser.fr/ProductDetail/Molex/33472-2001?qs=ZlMU7IUseCt4wlAgpUcMsQ%3D%3D"
-			(at 101.6 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e54f1909-9b66-49fd-8037-ec97eddc6000")
 		)
@@ -1636,7 +1781,7 @@
 		(instances
 			(project "Open_FlexFuel_Nano_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/b70e50ac-d40c-421a-87c6-6289c5083853"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)

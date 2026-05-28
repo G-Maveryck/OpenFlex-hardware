@@ -2093,17 +2093,6 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "P10316-ND"
-			(at 0 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "Panasonic"
 			(at 0 130.81 0)
 			(hide yes)
@@ -2838,17 +2827,6 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "NCV7805BTGOS-ND"
-			(at 0 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "ON Semi"
 			(at 0 111.76 0)
 			(hide yes)
@@ -2871,7 +2849,7 @@
 				)
 			)
 		)
-		(property "URL" "https://www.digikey.com.au/product-detail/en/on-semiconductor/NCV7805BTG/NCV7805BTGOS-ND/921437"
+		(property "URL" "https://www.mouser.fr/ProductDetail/onsemi/NCV7805BTG?qs=8sOby8ZxZLE6UfUj5jjWgw%3D%3D"
 			(at 0 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2882,7 +2860,7 @@
 				)
 			)
 		)
-		(property "Mouser_Part_Number" "863-NCV7805BTG "
+		(property "Mouser_Part_Number" "863-NCV7805BTG"
 			(at 161.29 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2944,7 +2922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_BelFuse_0ZRE0055FF_L14.0mm_W4.1mm"
+		(property "Footprint" "Fuse:Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm"
 			(at 181.61 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2977,17 +2955,6 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "507-2403-ND"
-			(at 0 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "Bel Fuse"
 			(at 0 102.87 0)
 			(hide yes)
@@ -3000,17 +2967,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0ZRP0050FF1E"
-			(at 0 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.digikey.com.au/product-detail/en/bel-fuse-inc/0ZRP0050FF1E/507-2403-ND/9468252"
 			(at 0 102.87 0)
 			(hide yes)
 			(show_name no)
