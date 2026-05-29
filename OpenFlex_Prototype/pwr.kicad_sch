@@ -2595,17 +2595,6 @@
 				(justify left)
 			)
 		)
-		(property "Digikey Part Number" "P19658CT-ND"
-			(at 0 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer_Name" "Panasonic"
 			(at 0 133.35 0)
 			(hide yes)
