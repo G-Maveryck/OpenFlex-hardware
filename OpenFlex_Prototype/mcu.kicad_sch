@@ -2105,7 +2105,7 @@
 			(uuid "e697dfc3-d33b-4170-9da4-97f9ba9569b9")
 		)
 		(instances
-			(project "Open_FlexFuel_Nano_THT"
+			(project "OpenFlex_Proto_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/71b628bd-83c9-4f0e-b493-073c5070ff57"
 					(reference "U1")
 					(unit 1)
@@ -2183,7 +2183,7 @@
 			(uuid "61dbe004-2857-40a2-a9e1-b82270ee8c25")
 		)
 		(instances
-			(project "Open_FlexFuel_Nano_THT"
+			(project "OpenFlex_Proto_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/71b628bd-83c9-4f0e-b493-073c5070ff57"
 					(reference "#PWR05")
 					(unit 1)
@@ -2261,7 +2261,7 @@
 			(uuid "7c25aefd-8f9d-443c-88a3-ad745d5f0601")
 		)
 		(instances
-			(project "Open_FlexFuel_Nano_THT"
+			(project "OpenFlex_Proto_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/71b628bd-83c9-4f0e-b493-073c5070ff57"
 					(reference "#PWR03")
 					(unit 1)
@@ -2340,7 +2340,7 @@
 			(uuid "bb5c4dd6-e309-4b6b-9c12-d48bf6dbd03e")
 		)
 		(instances
-			(project "Open_FlexFuel_Nano_THT"
+			(project "OpenFlex_Proto_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/71b628bd-83c9-4f0e-b493-073c5070ff57"
 					(reference "#PWR04")
 					(unit 1)
@@ -2418,7 +2418,7 @@
 			(uuid "f4ffc58b-f230-4205-b24c-273d18b1041f")
 		)
 		(instances
-			(project "Open_FlexFuel_Nano_THT"
+			(project "OpenFlex_Proto_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/71b628bd-83c9-4f0e-b493-073c5070ff57"
 					(reference "#PWR02")
 					(unit 1)
@@ -2496,7 +2496,7 @@
 			(uuid "2b9a9422-27a5-41fb-8c14-b8a0b4458777")
 		)
 		(instances
-			(project "Open_FlexFuel_Nano_THT"
+			(project "OpenFlex_Proto_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/71b628bd-83c9-4f0e-b493-073c5070ff57"
 					(reference "#PWR01")
 					(unit 1)
