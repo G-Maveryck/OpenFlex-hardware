@@ -1315,8 +1315,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:IRF740"
+		(symbol "Transistor_FET:Q_NMOS_GDS"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1335,7 +1336,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "IRF740"
+			(property "Value" "Q_NMOS_GDS"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1346,21 +1347,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/91054/91054.pdf"
-				(at 5.08 -3.81 0)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1368,10 +1356,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Description" "10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1382,7 +1369,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "N Channel"
+			(property "Description" "N-MOSFET transistor, gate/drain/source"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1393,7 +1380,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO?220*"
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1404,7 +1391,7 @@
 					)
 				)
 			)
-			(symbol "IRF740_0_1"
+			(symbol "Q_NMOS_GDS_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1548,7 +1535,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -1571,7 +1558,7 @@
 					)
 				)
 			)
-			(symbol "IRF740_1_1"
+			(symbol "Q_NMOS_GDS_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -4902,9 +4889,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRF740")
-		(at 123.19 115.57 0)
-		(mirror y)
+		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(at 123.19 72.39 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4912,9 +4898,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1d71888f-26cf-48a1-a9ac-777e7fc3ee94")
-		(property "Reference" "Q3"
-			(at 116.84 114.2999 0)
+		(uuid "1e421256-571c-4c03-853d-1b3328857ab7")
+		(property "Reference" "Q2"
+			(at 116.84 73.6601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4924,8 +4910,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRF740"
-			(at 116.84 116.8399 0)
+		(property "Value" "STP80NF55-08"
+			(at 116.84 71.1201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4936,32 +4922,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
-			(at 118.11 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/91054/91054.pdf"
-			(at 118.11 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"
-			(at 123.19 115.57 0)
+			(at 118.11 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4971,8 +4932,8 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay Semiconductors "
-			(at 123.19 115.57 0)
+		(property "Datasheet" ""
+			(at 123.19 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4982,8 +4943,8 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IRF740PBF "
-			(at 123.19 115.57 0)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 123.19 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4993,8 +4954,8 @@
 				)
 			)
 		)
-		(property "Mouser_Part_Number" "844-IRF740PBF "
-			(at 123.19 115.57 0)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 123.19 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5004,8 +4965,8 @@
 				)
 			)
 		)
-		(property "URL" "https://www.mouser.fr/ProductDetail/Vishay-Semiconductors/IRF740PBF?qs=%2FRKvNCQzLu3uJ0qFp3fNBg%3D%3D"
-			(at 123.19 115.57 0)
+		(property "Manufacturer_Part_Number" "STP80NF55-08"
+			(at 123.19 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5015,19 +4976,41 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "c40bbf80-3e24-4b84-b722-6cbb1544ceb8")
+		(property "Mouser_Part_Number" "511-STP80NF55-08"
+			(at 123.19 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "3"
-			(uuid "f3332710-5c50-42bb-97ad-8aaceac89c08")
+		(property "URL" "https://www.mouser.fr/ProductDetail/STMicroelectronics/STP80NF55-08?qs=mdiO5HdF0KjJuByOXtljCg%3D%3D"
+			(at 123.19 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "ef7f5b75-c049-46b6-b72a-07de9b68a1b8")
+			(uuid "a52b6e5b-e63c-4805-a1f4-57b130f544d5")
+		)
+		(pin "3"
+			(uuid "170d184e-3efd-45cf-9d26-82f87787b2c5")
+		)
+		(pin "2"
+			(uuid "532156cf-a95f-4015-9c6b-67b46b448d44")
 		)
 		(instances
 			(project "OpenFlex_Proto_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "Q3")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5248,6 +5231,136 @@
 			(project "OpenFlex_Proto_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(at 123.19 115.57 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a4c1868-fb45-422a-969b-51fe88ec81fe")
+		(property "Reference" "Q3"
+			(at 116.84 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STP80NF55-08"
+			(at 116.84 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+			(at 118.11 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 123.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 123.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STP80NF55-08"
+			(at 123.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_Part_Number" "511-STP80NF55-08"
+			(at 123.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.mouser.fr/ProductDetail/STMicroelectronics/STP80NF55-08?qs=mdiO5HdF0KjJuByOXtljCg%3D%3D"
+			(at 123.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6c20b47-917d-4dcd-9112-bb51a1c9f59f")
+		)
+		(pin "3"
+			(uuid "d3760b9f-7b82-4679-b580-ae067d4346ab")
+		)
+		(pin "2"
+			(uuid "98a3da42-0241-491f-80c4-d0491f100ef9")
+		)
+		(instances
+			(project "OpenFlex_Proto_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -6564,138 +6677,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRF740")
-		(at 123.19 54.61 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5d850061-d1a7-4fa7-b0a5-580e7ab6e43d")
-		(property "Reference" "Q1"
-			(at 116.84 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF740"
-			(at 116.84 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
-			(at 118.11 56.515 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/91054/91054.pdf"
-			(at 118.11 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"
-			(at 123.19 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay Semiconductors "
-			(at 123.19 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IRF740PBF "
-			(at 123.19 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser_Part_Number" "844-IRF740PBF "
-			(at 123.19 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.mouser.fr/ProductDetail/Vishay-Semiconductors/IRF740PBF?qs=%2FRKvNCQzLu3uJ0qFp3fNBg%3D%3D"
-			(at 123.19 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4e8212b6-d77e-4c25-b9ca-8fa534223386")
-		)
-		(pin "3"
-			(uuid "05aaed58-e908-4bdf-aa79-0a6bf677c986")
-		)
-		(pin "1"
-			(uuid "e95ef3df-ebc5-469b-a033-4f5f728ed97a")
-		)
-		(instances
-			(project "OpenFlex_Proto_THT"
-				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDDA")
 		(at 234.95 50.8 0)
 		(unit 1)
@@ -7298,137 +7279,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRF740")
-		(at 123.19 133.35 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a20a7e45-e557-4787-afb0-dcfc82634723")
-		(property "Reference" "Q4"
-			(at 116.84 134.6201 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF740"
-			(at 116.84 132.0801 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
-			(at 118.11 131.445 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/91054/91054.pdf"
-			(at 118.11 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"
-			(at 123.19 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay Semiconductors "
-			(at 123.19 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IRF740PBF "
-			(at 123.19 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser_Part_Number" "844-IRF740PBF "
-			(at 123.19 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.mouser.fr/ProductDetail/Vishay-Semiconductors/IRF740PBF?qs=%2FRKvNCQzLu3uJ0qFp3fNBg%3D%3D"
-			(at 123.19 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ae95d562-424b-448c-b906-b8c3b4d763ab")
-		)
-		(pin "3"
-			(uuid "7b4a35b1-cd78-46be-ae1e-5648b5e8e197")
-		)
-		(pin "1"
-			(uuid "ea39a6de-61bd-41a7-ab90-75bb4cd9df40")
-		)
-		(instances
-			(project "OpenFlex_Proto_THT"
-				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 39.37 128.27 0)
 		(unit 1)
@@ -7943,6 +7793,136 @@
 			(project "OpenFlex_Proto_THT"
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(at 123.19 54.61 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3b9e90d-30e3-4808-acda-2e651b62226b")
+		(property "Reference" "Q1"
+			(at 116.84 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STP80NF55-08"
+			(at 116.84 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+			(at 118.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STP80NF55-08"
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_Part_Number" "511-STP80NF55-08"
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.mouser.fr/ProductDetail/STMicroelectronics/STP80NF55-08?qs=mdiO5HdF0KjJuByOXtljCg%3D%3D"
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4653ae29-8bb6-40aa-a33e-47653f00abc5")
+		)
+		(pin "3"
+			(uuid "4bc2df59-094d-4b02-bcf6-26bb3c71197a")
+		)
+		(pin "2"
+			(uuid "04fc5fa7-3848-4519-ad96-3acf4b3819da")
+		)
+		(instances
+			(project "OpenFlex_Proto_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -8689,137 +8669,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRF740")
-		(at 123.19 72.39 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "db413b16-82a2-49a4-ade3-0865e26ff81e")
-		(property "Reference" "Q2"
-			(at 116.84 73.6601 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF740"
-			(at 116.84 71.1201 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
-			(at 118.11 70.485 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/91054/91054.pdf"
-			(at 118.11 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"
-			(at 123.19 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay Semiconductors "
-			(at 123.19 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IRF740PBF "
-			(at 123.19 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser_Part_Number" "844-IRF740PBF "
-			(at 123.19 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.mouser.fr/ProductDetail/Vishay-Semiconductors/IRF740PBF?qs=%2FRKvNCQzLu3uJ0qFp3fNBg%3D%3D"
-			(at 123.19 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9eaf8dbf-2b97-48ba-ace4-03871f184a31")
-		)
-		(pin "3"
-			(uuid "8acdd738-90f9-48eb-a1c1-7e54edc9ab55")
-		)
-		(pin "1"
-			(uuid "1799a215-2566-492a-aa80-38dc5c07d4bd")
-		)
-		(instances
-			(project "OpenFlex_Proto_THT"
-				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 148.59 140.97 270)
 		(mirror x)
@@ -9304,6 +9153,134 @@
 				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
 					(reference "U2")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(at 123.19 133.35 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5809ef8-2e9c-4cfc-8e93-2039e6cdef1a")
+		(property "Reference" "Q4"
+			(at 116.84 134.6201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STP80NF55-08"
+			(at 116.84 132.0801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
+			(at 118.11 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 123.19 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 123.19 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STP80NF55-08"
+			(at 123.19 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_Part_Number" "511-STP80NF55-08"
+			(at 123.19 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL" "https://www.mouser.fr/ProductDetail/STMicroelectronics/STP80NF55-08?qs=mdiO5HdF0KjJuByOXtljCg%3D%3D"
+			(at 123.19 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "326da0ba-23b2-43e8-b4d5-69072af660c6")
+		)
+		(pin "3"
+			(uuid "62496165-6a05-4d14-a154-eb9db4ddff94")
+		)
+		(pin "2"
+			(uuid "64b7ffe6-8f38-4b1b-ae52-cfff11ec427b")
+		)
+		(instances
+			(project "OpenFlex_Proto_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
+					(reference "Q4")
+					(unit 1)
 				)
 			)
 		)
