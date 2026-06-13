@@ -563,7 +563,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "OpenFlex_Proto_gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../Enclosure_nano_v0.1/PCB_Open_FlexFuel_Nano_THT_02.step",
@@ -857,7 +857,7 @@
         "uuid": "9b5751a0-d284-4a5b-96bd-00759eb74951"
       }
     ],
-    "used_designators": "Q1-4",
+    "used_designators": "J3-22,Q1-4",
     "variants": []
   },
   "sheets": [

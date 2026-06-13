@@ -2184,7 +2184,7 @@
 				)
 			)
 		)
-		(property "Value" "SB230TA"
+		(property "Value" "SB230-E3/54"
 			(at 109.22 46.355 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2205,7 +2205,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/115/ds13002-60388.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?88717"
 			(at 109.22 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2226,7 +2226,7 @@
 				)
 			)
 		)
-		(property "Digikey Part Number" "1655-1518-1-ND"
+		(property "Manufacturer_Name" "Vishay Semiconductors"
 			(at 254 -12.7 0)
 			(hide yes)
 			(show_name no)
@@ -2237,7 +2237,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "SMC"
+		(property "Manufacturer_Part_Number" "SB230-E3/54"
 			(at 254 -12.7 0)
 			(hide yes)
 			(show_name no)
@@ -2248,29 +2248,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SB230TA"
-			(at 254 -12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "URL" "https://www.digikey.com.au/product-detail/en/smc-diode-solutions/SB230TA/1655-1518-1-ND/6022963"
-			(at 254 -12.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser_Part_Number" "833-SB230-TP "
+		(property "Mouser_Part_Number" "625-SB230-E3"
 			(at 109.22 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2281,7 +2259,7 @@
 				)
 			)
 		)
-		(property "Mouser URL" "https://www.mouser.fr/ProductDetail/Micro-Commercial-Components-MCC/SB230-TP?qs=P1JMDcb91o64q2VtM2oH0Q%3D%3D"
+		(property "Mouser URL" "https://www.mouser.fr/ProductDetail/Vishay-Semiconductors/SB230-E3-54?qs=u91jd7aysvMVfxBBDX1%252BYQ%3D%3D"
 			(at 109.22 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2816,7 +2794,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "ON Semi"
+		(property "Manufacturer_Name" "Texas Instruments"
 			(at 0 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2827,7 +2805,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "NCV7805BTG"
+		(property "Manufacturer_Part_Number" "LM2940T-5.0/LF08"
 			(at 0 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2838,7 +2816,7 @@
 				)
 			)
 		)
-		(property "URL" "https://www.mouser.fr/ProductDetail/onsemi/NCV7805BTG?qs=8sOby8ZxZLE6UfUj5jjWgw%3D%3D"
+		(property "URL" "https://www.mouser.fr/ProductDetail/Texas-Instruments/LM2940T-5.0-LF08?qs=X1J7HmVL2ZHslyM5jzTq7g%3D%3D"
 			(at 0 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2849,7 +2827,7 @@
 				)
 			)
 		)
-		(property "Mouser_Part_Number" "863-NCV7805BTG"
+		(property "Mouser_Part_Number" "926-LM2940T-50/LF08"
 			(at 161.29 49.53 0)
 			(hide yes)
 			(show_name no)

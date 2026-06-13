@@ -10646,52 +10646,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 152.4 177.8)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "78da0410-b6fd-4b30-a80c-648e24f69621")
-		(property "Sheetname" "Power"
-			(at 152.4 177.0884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pwr.kicad_sch"
-			(at 152.4 191.0846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "EmulatorBoard"
-				(path "/f1104bbf-8d85-4011-a1d1-ffdecdb41ac7"
-					(page "2")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")
