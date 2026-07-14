@@ -1097,6 +1097,279 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Thermistor_NTC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TH"
+				(at -4.445 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Thermistor_NTC"
+				(at 3.175 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "thermistor NTC resistor sensor RTD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_* RV_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Thermistor_NTC_0_1"
+				(arc
+					(start -3.175 2.413)
+					(mid -3.0506 2.3165)
+					(end -3.048 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.048 2.794)
+					(mid -2.9736 2.9736)
+					(end -2.794 3.048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 3.048)
+					(mid -2.6144 2.9736)
+					(end -2.54 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 2.54)
+					(mid -2.9736 2.6144)
+					(end -3.048 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 1.905)
+					(mid -2.9736 1.9794)
+					(end -3.048 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.159)
+					(mid -2.6144 1.9794)
+					(end -2.794 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.159 2.794)
+					(mid -2.434 2.5608)
+					(end -2.794 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -2.54 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.397) (xy -1.778 -3.683) (xy -2.032 -2.921) (xy -1.524 -2.921) (xy -1.778 -3.683)
+						(xy -1.778 -3.429)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Thermistor_NTC_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Open_Flex_KiCadLibrary:TC4424"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2137,6 +2410,30 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 193.04 87.63)
+		(end 247.65 128.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1ba24c67-52fb-48a5-942b-5edadc4ced7d")
+	)
+	(rectangle
+		(start 193.04 33.02)
+		(end 247.65 73.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e6a2a2b9-195a-4a4d-a13c-dd59306d5525")
+	)
 	(text "When injectors are triggered by the car ECU, OpAmp output will flip to +VDD.\n\nSignal sent to the MCU is a logic HIGH.\nOutput = +VSS when injector is open."
 		(exclude_from_sim no)
 		(at 20.574 25.4 0)
@@ -2150,7 +2447,7 @@
 	)
 	(text "Temperature Sensor\n(Thermistor NTC)"
 		(exclude_from_sim no)
-		(at 249.682 93.726 0)
+		(at 193.548 135.128 0)
 		(effects
 			(font
 				(size 1.8796 1.8796)
@@ -2161,7 +2458,7 @@
 	)
 	(text "Flex Sensor Input"
 		(exclude_from_sim no)
-		(at 248.666 55.118 0)
+		(at 193.04 32.512 0)
 		(effects
 			(font
 				(size 1.8796 1.8796)
@@ -2192,8 +2489,8 @@
 	)
 	(text_box "Injection - 4channel Output Driver"
 		(exclude_from_sim no)
-		(at 101.6 33.02 0)
-		(size 68.58 123.19)
+		(at 100.33 33.02 0)
+		(size 64.77 123.19)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2223,10 +2520,10 @@
 		(uuid "05383654-0a36-4bbe-8f70-100b94a77e81")
 	)
 	(junction
-		(at 228.6 93.98)
+		(at 232.41 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0e6b9bdf-30df-426b-a967-07c77c7ad035")
+		(uuid "0f9c3a75-8aae-4d73-ad14-a381d9e30c22")
 	)
 	(junction
 		(at 39.37 102.87)
@@ -2235,7 +2532,13 @@
 		(uuid "1626bf49-dbfa-4c89-a865-44584704b1f5")
 	)
 	(junction
-		(at 213.36 93.98)
+		(at 232.41 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1641036b-1649-479e-897d-f6ab0430498d")
+	)
+	(junction
+		(at 217.17 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "171c6712-886d-4a01-a015-79103e665374")
@@ -2271,16 +2574,16 @@
 		(uuid "4fdd1fd1-1f10-49bf-8779-079cf8ee063f")
 	)
 	(junction
-		(at 228.6 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c0440b6-162a-45a7-8df0-179187860f5d")
-	)
-	(junction
 		(at 39.37 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "650f507a-69ed-42ca-bba6-1b6a905fb9c2")
+	)
+	(junction
+		(at 204.47 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78ff979f-6a66-4503-932b-f2aa00ea45e9")
 	)
 	(junction
 		(at 120.65 140.97)
@@ -2289,7 +2592,13 @@
 		(uuid "7ab68816-e025-4ce0-bb37-bfa808c2b63c")
 	)
 	(junction
-		(at 223.52 54.61)
+		(at 217.17 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81a30d85-b91d-4f00-ab42-b77d61db5d44")
+	)
+	(junction
+		(at 218.44 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a068c64-1128-4465-a59c-ce3784357f47")
@@ -2426,7 +2735,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 95.25) (xy 213.36 93.98)
+			(xy 217.17 107.95) (xy 217.17 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2436,7 +2745,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 93.98) (xy 228.6 95.25)
+			(xy 232.41 105.41) (xy 232.41 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2486,7 +2795,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 50.8) (xy 234.95 54.61)
+			(xy 231.14 46.99) (xy 231.14 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2556,7 +2865,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 55.88) (xy 223.52 54.61)
+			(xy 218.44 53.34) (xy 218.44 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2603,16 +2912,6 @@
 			(type default)
 		)
 		(uuid "2d3d186a-80fb-4d5e-9d9c-d2e75492058d")
-	)
-	(wire
-		(pts
-			(xy 228.6 104.14) (xy 228.6 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2efdf96f-17a0-43a7-a74c-8bf4f32122e9")
 	)
 	(wire
 		(pts
@@ -2676,7 +2975,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 104.14) (xy 228.6 104.14)
+			(xy 217.17 118.11) (xy 232.41 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2686,13 +2985,23 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 93.98) (xy 219.71 93.98)
+			(xy 217.17 105.41) (xy 223.52 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "38f37d5b-e0c5-49ca-bfc2-9da9929e0b15")
+	)
+	(wire
+		(pts
+			(xy 232.41 115.57) (xy 232.41 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393607b3-c791-4b94-bc4f-1145323d92d4")
 	)
 	(wire
 		(pts
@@ -2713,16 +3022,6 @@
 			(type default)
 		)
 		(uuid "40ffa1a4-1976-422d-b480-58712eca84dd")
-	)
-	(wire
-		(pts
-			(xy 213.36 92.71) (xy 213.36 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42222feb-47f6-48ca-8149-90edf20e4610")
 	)
 	(wire
 		(pts
@@ -2776,7 +3075,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 93.98) (xy 228.6 93.98)
+			(xy 236.22 105.41) (xy 232.41 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2796,7 +3095,17 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 54.61) (xy 234.95 54.61)
+			(xy 204.47 118.11) (xy 217.17 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5775e9ed-b640-4db4-9ef0-df34e273c917")
+	)
+	(wire
+		(pts
+			(xy 228.6 50.8) (xy 231.14 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2836,7 +3145,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 50.8) (xy 223.52 54.61)
+			(xy 218.44 46.99) (xy 218.44 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2846,7 +3155,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 50.8) (xy 223.52 50.8)
+			(xy 213.36 46.99) (xy 218.44 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2896,7 +3205,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 102.87) (xy 213.36 104.14)
+			(xy 217.17 115.57) (xy 217.17 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2926,6 +3235,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 115.57) (xy 204.47 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818547ec-38b9-424c-87a2-f05acde22f95")
+	)
+	(wire
+		(pts
 			(xy 39.37 128.27) (xy 39.37 129.54)
 		)
 		(stroke
@@ -2936,7 +3255,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 93.98) (xy 213.36 93.98)
+			(xy 204.47 105.41) (xy 217.17 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2946,13 +3265,33 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 93.98) (xy 228.6 93.98)
+			(xy 204.47 105.41) (xy 204.47 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903fa953-5510-4933-b410-014eff1e633b")
+	)
+	(wire
+		(pts
+			(xy 231.14 105.41) (xy 232.41 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "943441eb-598e-4971-b21e-c99692b2f33f")
+	)
+	(wire
+		(pts
+			(xy 217.17 105.41) (xy 217.17 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9622fe55-4c09-4d02-8ea6-018b9fca8055")
 	)
 	(wire
 		(pts
@@ -2966,7 +3305,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 66.04) (xy 223.52 63.5)
+			(xy 218.44 63.5) (xy 218.44 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2983,6 +3322,16 @@
 			(type default)
 		)
 		(uuid "a0fefbd5-c274-4808-87c4-a0f606815add")
+	)
+	(wire
+		(pts
+			(xy 204.47 104.14) (xy 204.47 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a19748f7-e783-4e0d-a545-fdb6d0166e51")
 	)
 	(wire
 		(pts
@@ -3046,6 +3395,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 118.11) (xy 232.41 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1606c0-7161-4e9a-b306-e032d5ef6319")
+	)
+	(wire
+		(pts
 			(xy 63.5 134.62) (xy 66.04 134.62)
 		)
 		(stroke
@@ -3063,6 +3422,16 @@
 			(type default)
 		)
 		(uuid "be5a1217-cd37-45ce-b2d8-29950ca18c4b")
+	)
+	(wire
+		(pts
+			(xy 236.22 104.14) (xy 236.22 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cc2b2a-3986-4c6c-83b2-39b8fd41f053")
 	)
 	(wire
 		(pts
@@ -3086,7 +3455,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 54.61) (xy 223.52 54.61)
+			(xy 220.98 50.8) (xy 218.44 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3116,7 +3485,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 54.61) (xy 223.52 54.61)
+			(xy 213.36 50.8) (xy 218.44 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3136,7 +3505,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 83.82) (xy 213.36 85.09)
+			(xy 217.17 95.25) (xy 217.17 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3206,16 +3575,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 102.87) (xy 228.6 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb479a80-3892-4673-83a5-dcab50dc56f1")
-	)
-	(wire
-		(pts
 			(xy 119.38 140.97) (xy 120.65 140.97)
 		)
 		(stroke
@@ -3236,7 +3595,7 @@
 	)
 	(hierarchical_label "Temp_Signal"
 		(shape input)
-		(at 232.41 93.98 0)
+		(at 236.22 104.14 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3258,12 +3617,12 @@
 	)
 	(hierarchical_label "Temp_Snsr_IN"
 		(shape input)
-		(at 209.55 93.98 180)
+		(at 204.47 104.14 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "316a125b-f207-468f-ba36-2c48b7dd0270")
 	)
@@ -3291,7 +3650,7 @@
 	)
 	(hierarchical_label "Flex_Signal"
 		(shape input)
-		(at 218.44 50.8 180)
+		(at 213.36 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3379,7 +3738,7 @@
 	)
 	(hierarchical_label "Flex_Snsr_IN"
 		(shape input)
-		(at 218.44 54.61 180)
+		(at 213.36 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3713,7 +4072,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 106.68 0)
+		(at 232.41 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3723,7 +4082,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d6b85c5")
 		(property "Reference" "#PWR027"
-			(at 228.6 113.03 0)
+			(at 232.41 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3734,7 +4093,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.727 111.0742 0)
+			(at 232.537 125.0442 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3744,7 +4103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 106.68 0)
+			(at 232.41 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3755,7 +4114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 106.68 0)
+			(at 232.41 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3766,7 +4125,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 106.68 0)
+			(at 232.41 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3790,7 +4149,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 213.36 88.9 180)
+		(at 217.17 100.33 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3800,7 +4159,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d6b85c6")
 		(property "Reference" "R9"
-			(at 218.6178 88.9 90)
+			(at 222.4278 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3810,7 +4169,7 @@
 			)
 		)
 		(property "Value" "2.49k"
-			(at 216.3064 88.9 90)
+			(at 220.1164 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3820,7 +4179,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 215.138 88.9 90)
+			(at 218.948 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3831,7 +4190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 88.9 0)
+			(at 217.17 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3842,7 +4201,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 88.9 0)
+			(at 217.17 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3852,8 +4211,8 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 213.36 88.9 0)
+		(property "Manufacturer_Name" "Stackpole Electronics Inc"
+			(at 217.17 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3863,8 +4222,8 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "MFR-25FBF52-2K49"
-			(at 213.36 88.9 0)
+		(property "Manufacturer_Part_Number" "RNF14BTE2K49"
+			(at 217.17 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3875,7 +4234,7 @@
 			)
 		)
 		(property "Tolerance" "0.1%"
-			(at 213.36 88.9 0)
+			(at 217.17 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3885,8 +4244,8 @@
 				)
 			)
 		)
-		(property "URL" "https://www.mouser.fr/ProductDetail/YAGEO/MFR-25FBF52-2K49?qs=oAGoVhmvjhwfmQMP0IrT5Q%3D%3D"
-			(at 213.36 88.9 0)
+		(property "URL" "https://www.digikey.fr/fr/products/detail/stackpole-electronics-inc/RNF14BTE2K49/1752591"
+			(at 217.17 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3896,8 +4255,41 @@
 				)
 			)
 		)
-		(property "Mouser_Part_Number" "603-MFR-25FBF52-2K49"
-			(at 213.36 88.9 0)
+		(property "Mouser_Part_Number" ""
+			(at 217.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_Part_Number" "738-RNF14BTE2K49CT-ND"
+			(at 217.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL_Mouser" ""
+			(at 217.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL_Digikey" "https://www.digikey.fr/fr/products/detail/stackpole-electronics-inc/RNF14BTE2K49/1752591"
+			(at 217.17 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3924,7 +4316,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 228.6 54.61 270)
+		(at 224.79 50.8 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3934,7 +4326,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d9ffddf")
 		(property "Reference" "R11"
-			(at 228.6 49.3522 90)
+			(at 224.79 45.5422 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3944,7 +4336,7 @@
 			)
 		)
 		(property "Value" "2.4k"
-			(at 228.6 51.6636 90)
+			(at 224.79 47.8536 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3954,7 +4346,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 228.6 52.832 90)
+			(at 224.79 49.022 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3965,7 +4357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 54.61 0)
+			(at 224.79 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3976,7 +4368,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 54.61 0)
+			(at 224.79 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3987,7 +4379,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo"
-			(at 228.6 54.61 0)
+			(at 224.79 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3998,7 +4390,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MFR-25FBF52-2K4"
-			(at 228.6 54.61 0)
+			(at 224.79 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4009,7 +4401,7 @@
 			)
 		)
 		(property "URL" "https://www.mouser.fr/ProductDetail/YAGEO/MFR-25FBF52-2K4?qs=oAGoVhmvjhxgKgpSfL8wnA%3D%3D"
-			(at 228.6 54.61 0)
+			(at 224.79 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4020,7 +4412,7 @@
 			)
 		)
 		(property "Mouser_Part_Number" "603-MFR-25FBF52-2K4"
-			(at 228.6 54.61 0)
+			(at 224.79 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4047,7 +4439,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 223.52 93.98 270)
+		(at 227.33 105.41 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4057,7 +4449,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005da923ad")
 		(property "Reference" "R10"
-			(at 223.52 88.7222 90)
+			(at 227.33 100.1522 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4067,7 +4459,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 223.52 91.0336 90)
+			(at 227.33 102.4636 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4077,7 +4469,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 223.52 92.202 90)
+			(at 227.33 103.632 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4088,7 +4480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 93.98 0)
+			(at 227.33 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4099,7 +4491,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 93.98 0)
+			(at 227.33 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4110,7 +4502,7 @@
 			)
 		)
 		(property "Manufacturer_Name" " YAGEO"
-			(at 223.52 93.98 0)
+			(at 227.33 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4121,7 +4513,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MFR-25FTE52-470R"
-			(at 223.52 93.98 0)
+			(at 227.33 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4132,7 +4524,7 @@
 			)
 		)
 		(property "URL" "https://www.mouser.fr/ProductDetail/YAGEO/MFR-25FTE52-470R?qs=oAGoVhmvjhywqkRjln2gRw%3D%3D"
-			(at 223.52 93.98 0)
+			(at 227.33 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4143,7 +4535,7 @@
 			)
 		)
 		(property "Mouser_Part_Number" "603-MFR-25FTE52-470R"
-			(at 223.52 93.98 0)
+			(at 227.33 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4170,7 +4562,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 66.04 0)
+		(at 218.44 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4180,7 +4572,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005da923c9")
 		(property "Reference" "#PWR026"
-			(at 223.52 72.39 0)
+			(at 218.44 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4191,7 +4583,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.647 70.4342 0)
+			(at 218.567 67.8942 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4201,7 +4593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 66.04 0)
+			(at 218.44 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4212,7 +4604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 66.04 0)
+			(at 218.44 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4223,7 +4615,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 66.04 0)
+			(at 218.44 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4247,7 +4639,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 213.36 99.06 0)
+		(at 217.17 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4257,7 +4649,7 @@
 		(dnp no)
 		(uuid "03421cf3-e50d-4e11-a6a5-2c1458a8a6e2")
 		(property "Reference" "C1"
-			(at 207.772 97.79 0)
+			(at 211.582 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4268,7 +4660,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 204.216 100.076 0)
+			(at 208.026 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4279,7 +4671,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 214.3252 102.87 0)
+			(at 218.1352 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4290,7 +4682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 99.06 0)
+			(at 217.17 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4301,7 +4693,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 99.06 0)
+			(at 217.17 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4311,7 +4703,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TDK"
-			(at 38.1 171.45 0)
+			(at 41.91 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4322,7 +4714,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FA18X8R1E104KNU06"
-			(at 38.1 171.45 0)
+			(at 41.91 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4333,7 +4725,7 @@
 			)
 		)
 		(property "URL" "https://www.mouser.fr/ProductDetail/TDK/FA18X8R1E104KNU06?qs=UrFqKgNWc7QW5A1lIq6%2F7g%3D%3D"
-			(at 38.1 171.45 0)
+			(at 41.91 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4344,7 +4736,7 @@
 			)
 		)
 		(property "Mouser_Part_Number" "810-FA18X8R1E104KNU6"
-			(at 213.36 99.06 0)
+			(at 217.17 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6308,6 +6700,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 204.47 111.76 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c5b261b-7f61-4cb9-aab9-2c21d548377b")
+		(property "Reference" "TH1"
+			(at 201.93 110.8074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 201.93 113.3474 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 204.47 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 204.47 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B57863S0103F040"
+			(at 204.47 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser_Part_Number" ""
+			(at 204.47 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_Part_Number" "495-2149-ND"
+			(at 204.47 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL_Mouser" ""
+			(at 204.47 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "URL_Digikey" "https://www.digikey.fr/fr/products/detail/tdk/B57863S0103F040/739899"
+			(at 204.47 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 200.152 115.824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69ec3bb9-bcd7-472c-abba-90947e2476fd")
+		)
+		(pin "2"
+			(uuid "108bac9d-feab-4c8e-aac2-e3e17e2aebd6")
+		)
+		(instances
+			(project "OpenFlex_Proto_THT"
+				(path "/9b5751a0-d284-4a5b-96bd-00759eb74951/54383dfc-1a14-4ff8-ba2c-575e844d3ff9"
+					(reference "TH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 129.54 63.5 90)
 		(unit 1)
@@ -6678,7 +7228,7 @@
 	)
 	(symbol
 		(lib_id "power:VDDA")
-		(at 234.95 50.8 0)
+		(at 231.14 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6689,7 +7239,7 @@
 		(fields_autoplaced yes)
 		(uuid "61858eb7-8648-4d05-afc6-7184312ed39f")
 		(property "Reference" "#PWR028"
-			(at 234.95 54.61 0)
+			(at 231.14 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6700,7 +7250,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 234.95 45.72 0)
+			(at 231.14 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6710,7 +7260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 50.8 0)
+			(at 231.14 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6721,7 +7271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 50.8 0)
+			(at 231.14 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6732,7 +7282,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 234.95 50.8 0)
+			(at 231.14 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8064,7 +8614,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 228.6 99.06 0)
+		(at 232.41 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8074,7 +8624,7 @@
 		(dnp no)
 		(uuid "b9616d0b-8ece-47e1-b006-72ea52f34cb2")
 		(property "Reference" "C3"
-			(at 231.521 97.8916 0)
+			(at 235.331 110.5916 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8085,7 +8635,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 231.521 100.203 0)
+			(at 235.331 112.903 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8096,7 +8646,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 229.5652 102.87 0)
+			(at 233.3752 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8107,7 +8657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 99.06 0)
+			(at 232.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8118,7 +8668,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 99.06 0)
+			(at 232.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8129,7 +8679,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TDK"
-			(at 228.6 99.06 0)
+			(at 232.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8140,7 +8690,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FA18X8R1E224KRU06"
-			(at 228.6 99.06 0)
+			(at 232.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8151,7 +8701,7 @@
 			)
 		)
 		(property "URL" "https://www.mouser.fr/ProductDetail/TDK/FA18X8R1E224KRU06?qs=UrFqKgNWc7TOuugIv9ts4g%3D%3D"
-			(at 228.6 99.06 0)
+			(at 232.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8162,7 +8712,7 @@
 			)
 		)
 		(property "Mouser_Part_Number" "810-FA18X8R1E224KRU6 "
-			(at 228.6 99.06 0)
+			(at 232.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8189,7 +8739,7 @@
 	)
 	(symbol
 		(lib_id "power:VDDA")
-		(at 213.36 83.82 0)
+		(at 217.17 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8200,7 +8750,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9d7821c-a337-473f-ae07-65b23b11f3a7")
 		(property "Reference" "#PWR025"
-			(at 213.36 87.63 0)
+			(at 217.17 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8211,7 +8761,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 213.36 78.74 0)
+			(at 217.17 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8221,7 +8771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 83.82 0)
+			(at 217.17 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8232,7 +8782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 83.82 0)
+			(at 217.17 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8243,7 +8793,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 213.36 83.82 0)
+			(at 217.17 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8750,7 +9300,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 223.52 59.69 0)
+		(at 218.44 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8760,7 +9310,7 @@
 		(dnp no)
 		(uuid "f234d773-1aa7-4e8e-ad96-7ef273a772b1")
 		(property "Reference" "C2"
-			(at 226.441 58.5216 0)
+			(at 221.361 55.9816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8771,7 +9321,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 226.441 60.833 0)
+			(at 221.361 58.293 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8782,7 +9332,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 224.4852 63.5 0)
+			(at 219.4052 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8793,7 +9343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 59.69 0)
+			(at 218.44 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8804,7 +9354,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 59.69 0)
+			(at 218.44 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8815,7 +9365,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TDK"
-			(at 223.52 59.69 0)
+			(at 218.44 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8826,7 +9376,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FA18X8R1E224KRU06"
-			(at 223.52 59.69 0)
+			(at 218.44 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8837,7 +9387,7 @@
 			)
 		)
 		(property "URL" "https://www.mouser.fr/ProductDetail/TDK/FA18X8R1E224KRU06?qs=UrFqKgNWc7TOuugIv9ts4g%3D%3D"
-			(at 223.52 59.69 0)
+			(at 218.44 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8848,7 +9398,7 @@
 			)
 		)
 		(property "Mouser_Part_Number" "810-FA18X8R1E224KRU6 "
-			(at 223.52 59.69 0)
+			(at 218.44 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

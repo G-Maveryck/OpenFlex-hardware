@@ -66,7 +66,7 @@
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_spoke_width": 0.65
         }
       },
       "diff_pair_dimensions": [
@@ -811,7 +811,17 @@
           "visible": false
         },
         {
-          "name": "URL",
+          "name": "Digikey_Part_Number",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "URL_Mouser",
+          "url": true,
+          "visible": false
+        },
+        {
+          "name": "URL_Digikey",
           "url": true,
           "visible": false
         }
@@ -857,7 +867,7 @@
         "uuid": "9b5751a0-d284-4a5b-96bd-00759eb74951"
       }
     ],
-    "used_designators": "J3-22,Q1-4",
+    "used_designators": "TH1,J3-22,Q1-4",
     "variants": []
   },
   "sheets": [
