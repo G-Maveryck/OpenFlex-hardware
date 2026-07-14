@@ -778,6 +778,24 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "URL_Digikey",
+          "name": "URL_Digikey",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "URL_Mouser",
+          "name": "URL_Mouser",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey_Part_Number",
+          "name": "Digikey_Part_Number",
+          "show": true
         }
       ],
       "filter_string": "",
